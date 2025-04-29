@@ -1,10 +1,1633 @@
 {
   "sun": {
-    "aries": "Tienes energía y espíritu competitivo.",
-    "taurus": "Eres constante y práctico."
+    "aries": {
+      "professional": "Tu identidad se manifiesta con iniciativa, energía y una fuerte voluntad. Eres directo y competitivo, con un fuerte deseo de liderar.",
+      "spiritual": "Interpretación espiritual para el Sol en aries.",
+      "youth": "Interpretación juvenil para el Sol en aries.",
+      "psychological": "Interpretación psicológica para el Sol en aries."
+    },
+    "taurus": {
+      "professional": "Tu naturaleza es estable, paciente y persistente. Buscas seguridad material y emocional, y valoras la belleza y la comodidad.",
+      "spiritual": "Interpretación espiritual para el Sol en taurus.",
+      "youth": "Interpretación juvenil para el Sol en taurus.",
+      "psychological": "Interpretación psicológica para el Sol en taurus."
+    },
+    "gemini": {
+      "professional": "Tu identidad se construye a través de la comunicación, la curiosidad y la versatilidad. Tienes una mente ágil y siempre estás aprendiendo.",
+      "spiritual": "Interpretación espiritual para el Sol en gemini.",
+      "youth": "Interpretación juvenil para el Sol en gemini.",
+      "psychological": "Interpretación psicológica para el Sol en gemini."
+    },
+    "cancer": {
+      "professional": "Tu expresión personal está profundamente conectada a tus emociones y vínculos familiares. Proteges lo que amas y actúas con empatía.",
+      "spiritual": "Interpretación espiritual para el Sol en cancer.",
+      "youth": "Interpretación juvenil para el Sol en cancer.",
+      "psychological": "Interpretación psicológica para el Sol en cancer."
+    },
+    "leo": {
+      "professional": "Eres creativo, expresivo y carismático. Brillas naturalmente y te mueves con seguridad, buscando reconocimiento y autenticidad.",
+      "spiritual": "Interpretación espiritual para el Sol en leo.",
+      "youth": "Interpretación juvenil para el Sol en leo.",
+      "psychological": "Interpretación psicológica para el Sol en leo."
+    },
+    "virgo": {
+      "professional": "Eres analítico, perfeccionista y orientado al detalle. Tu identidad se apoya en el servicio, la lógica y el deseo de mejorar todo a tu alrededor.",
+      "spiritual": "Interpretación espiritual para el Sol en virgo.",
+      "youth": "Interpretación juvenil para el Sol en virgo.",
+      "psychological": "Interpretación psicológica para el Sol en virgo."
+    },
+    "libra": {
+      "professional": "Tu esencia se equilibra a través de las relaciones. Buscas armonía, justicia y belleza, y tienes una diplomacia innata.",
+      "spiritual": "Interpretación espiritual para el Sol en libra.",
+      "youth": "Interpretación juvenil para el Sol en libra.",
+      "psychological": "Interpretación psicológica para el Sol en libra."
+    },
+    "scorpio": {
+      "professional": "Eres intenso, reservado y transformador. Tienes una voluntad poderosa y tu identidad se fortalece en la profundidad emocional.",
+      "spiritual": "Interpretación espiritual para el Sol en scorpio.",
+      "youth": "Interpretación juvenil para el Sol en scorpio.",
+      "psychological": "Interpretación psicológica para el Sol en scorpio."
+    },
+    "sagittarius": {
+      "professional": "Tu espíritu es libre, aventurero y filosófico. Buscas constantemente expandir tus horizontes y encontrar un propósito.",
+      "spiritual": "Interpretación espiritual para el Sol en sagittarius.",
+      "youth": "Interpretación juvenil para el Sol en sagittarius.",
+      "psychological": "Interpretación psicológica para el Sol en sagittarius."
+    },
+    "capricorn": {
+      "professional": "Tu naturaleza es ambiciosa, disciplinada y responsable. Te construyes con perseverancia y te orientas hacia metas concretas.",
+      "spiritual": "Interpretación espiritual para el Sol en capricorn.",
+      "youth": "Interpretación juvenil para el Sol en capricorn.",
+      "psychological": "Interpretación psicológica para el Sol en capricorn."
+    },
+    "aquarius": {
+      "professional": "Eres innovador, independiente y orientado al futuro. Valoras la autenticidad y tiendes a romper con lo convencional.",
+      "spiritual": "Interpretación espiritual para el Sol en aquarius.",
+      "youth": "Interpretación juvenil para el Sol en aquarius.",
+      "psychological": "Interpretación psicológica para el Sol en aquarius."
+    },
+    "pisces": {
+      "professional": "Tu esencia es empática, creativa y espiritual. Vives conectado a lo simbólico y a los sueños, con una profunda sensibilidad emocional.",
+      "spiritual": "Interpretación espiritual para el Sol en pisces.",
+      "youth": "Interpretación juvenil para el Sol en pisces.",
+      "psychological": "Interpretación psicológica para el Sol en pisces."
+    }
   },
   "moon": {
-    "pisces": "Tus emociones son profundas y soñadoras.",
-    "leo": "Buscas ser admirado emocionalmente."
+    "aries": {
+      "professional": "Tus emociones son intensas y reactivas. Expresas tus sentimientos con firmeza y liderazgo.",
+      "spiritual": "Tu alma busca autoafirmación y coraje emocional para avanzar con independencia.",
+      "youth": "Tienes reacciones rápidas y directas. A veces actúas antes de pensar, pero siempre con mucha energía.",
+      "psychological": "Eres emocionalmente impulsivo, con necesidad de validación a través de la acción directa."
+    },
+    "taurus": {
+      "professional": "Buscas seguridad emocional a través de la estabilidad y la comodidad sensorial.",
+      "spiritual": "Tu conexión espiritual nace de lo simple, lo tangible y los placeres de la vida.",
+      "youth": "Te gusta sentirte cómodo y seguro. No te agradan los cambios repentinos.",
+      "psychological": "Tienes una profunda necesidad de constancia emocional y resistencia al cambio."
+    },
+    "gemini": {
+      "professional": "Procesas las emociones de forma lógica y necesitas comunicarte para entender tus sentimientos.",
+      "spiritual": "Tu alma se enriquece con experiencias mentales y conexiones verbales con el entorno.",
+      "youth": "Eres curioso y te gusta hablar de lo que sientes, aunque a veces te cueste enfocarte.",
+      "psychological": "Tu emocionalidad se regula intelectualmente, lo que puede dificultar la conexión profunda."
+    },
+    "cancer": {
+      "professional": "Tu sensibilidad es alta, y cuidas de los demás como parte de tu entorno laboral.",
+      "spiritual": "Tu alma se nutre de la empatía, el amor familiar y los ciclos naturales.",
+      "youth": "Eres muy protector y te afecta el ambiente que te rodea. Necesitas sentirte querido.",
+      "psychological": "Eres emocionalmente reactivo y necesitas seguridad para abrirte completamente."
+    },
+    "leo": {
+      "professional": "Tus emociones están ligadas al orgullo personal y la necesidad de reconocimiento.",
+      "spiritual": "Tu camino espiritual pasa por el corazón y la expresión auténtica del ser.",
+      "youth": "Te encanta brillar y ser admirado. Tus emociones son intensas y dramáticas.",
+      "psychological": "Buscas afirmación emocional y autoestima a través de la autoexpresión y el afecto."
+    },
+    "virgo": {
+      "professional": "Eres analítico con tus emociones y muy útil en ambientes que requieren cuidado detallista.",
+      "spiritual": "Tu alma encuentra armonía al servir, analizar y mejorar continuamente.",
+      "youth": "Piensas mucho antes de decir cómo te sientes. Te gusta ayudar a los demás.",
+      "psychological": "Puedes racionalizar las emociones para sentirte en control, lo cual puede ser limitante emocionalmente."
+    },
+    "libra": {
+      "professional": "Buscas armonía emocional a través de relaciones equilibradas y ambientes justos.",
+      "spiritual": "Tu alma encuentra equilibrio en la belleza, el arte y la conexión afectiva con otros.",
+      "youth": "Eres sociable y te gusta llevarte bien con todos. Evitas los conflictos emocionales.",
+      "psychological": "La necesidad de agradar puede llevarte a negar tus emociones reales para mantener la paz."
+    },
+    "scorpio": {
+      "professional": "Tus emociones profundas te hacen resiliente en momentos de crisis y transformación.",
+      "spiritual": "Tu alma se fortalece con la oscuridad emocional, los misterios y la regeneración interior.",
+      "youth": "Eres muy intenso, aunque no siempre lo muestres. Guardas mucho dentro de ti.",
+      "psychological": "Tiendes a vivir emociones extremas y a veces las ocultas por miedo a ser vulnerable."
+    },
+    "sagittarius": {
+      "professional": "Emocionalmente expansivo y optimista. Necesitas libertad emocional para prosperar.",
+      "spiritual": "Tu alma se inspira en la filosofía, los viajes y la búsqueda constante de sentido.",
+      "youth": "Eres alegre, directo y amas explorar cosas nuevas. Te aburres con la rutina emocional.",
+      "psychological": "Procesas emociones a través de ideales, lo que puede alejarte de lo íntimo o doloroso."
+    },
+    "capricorn": {
+      "professional": "Controlas tus emociones y priorizas la responsabilidad sobre la expresión emocional.",
+      "spiritual": "Tu alma madura con disciplina y constancia. Encuentra propósito en la autosuperación.",
+      "youth": "A veces pareces más adulto que niño. No muestras tus emociones fácilmente.",
+      "psychological": "Tiendes a reprimir emociones por miedo al juicio o a perder el control."
+    },
+    "aquarius": {
+      "professional": "Tus emociones están ligadas a ideales colectivos. Buscas independencia afectiva.",
+      "spiritual": "Tu alma trasciende lo individual a través de la conexión con el futuro y la innovación.",
+      "youth": "Eres original y diferente. No siempre entiendes tus emociones, pero sí las ideas que tienes.",
+      "psychological": "Prefieres observar tus emociones desde fuera antes que sentirlas intensamente."
+    },
+    "pisces": {
+      "professional": "Emocionalmente empático y receptivo. Brillas en ambientes que requieren compasión.",
+      "spiritual": "Tu alma navega el misterio, los sueños y la unidad con todo lo que existe.",
+      "youth": "Eres muy sensible y fantasioso. Te gusta imaginar y a veces te cuesta poner límites.",
+      "psychological": "Tienes una conexión profunda con el inconsciente, pero puedes perderte en lo emocional si no te anclas."
+    }
+  },
+  "mercury": {
+    "aries": {
+      "professional": "Mercury en Aries indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mercury en Aries sugiere una conexión espiritual a través de la energía de aries. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mercury en Aries te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mercury en Aries representa un patrón psicológico donde las decisiones están influidas por las características clave de aries."
+    },
+    "taurus": {
+      "professional": "Mercury en Taurus indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mercury en Taurus sugiere una conexión espiritual a través de la energía de taurus. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mercury en Taurus te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mercury en Taurus representa un patrón psicológico donde las decisiones están influidas por las características clave de taurus."
+    },
+    "gemini": {
+      "professional": "Mercury en Gemini indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mercury en Gemini sugiere una conexión espiritual a través de la energía de gemini. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mercury en Gemini te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mercury en Gemini representa un patrón psicológico donde las decisiones están influidas por las características clave de gemini."
+    },
+    "cancer": {
+      "professional": "Mercury en Cancer indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mercury en Cancer sugiere una conexión espiritual a través de la energía de cancer. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mercury en Cancer te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mercury en Cancer representa un patrón psicológico donde las decisiones están influidas por las características clave de cancer."
+    },
+    "leo": {
+      "professional": "Mercury en Leo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mercury en Leo sugiere una conexión espiritual a través de la energía de leo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mercury en Leo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mercury en Leo representa un patrón psicológico donde las decisiones están influidas por las características clave de leo."
+    },
+    "virgo": {
+      "professional": "Mercury en Virgo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mercury en Virgo sugiere una conexión espiritual a través de la energía de virgo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mercury en Virgo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mercury en Virgo representa un patrón psicológico donde las decisiones están influidas por las características clave de virgo."
+    },
+    "libra": {
+      "professional": "Mercury en Libra indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mercury en Libra sugiere una conexión espiritual a través de la energía de libra. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mercury en Libra te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mercury en Libra representa un patrón psicológico donde las decisiones están influidas por las características clave de libra."
+    },
+    "scorpio": {
+      "professional": "Mercury en Scorpio indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mercury en Scorpio sugiere una conexión espiritual a través de la energía de scorpio. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mercury en Scorpio te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mercury en Scorpio representa un patrón psicológico donde las decisiones están influidas por las características clave de scorpio."
+    },
+    "sagittarius": {
+      "professional": "Mercury en Sagittarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mercury en Sagittarius sugiere una conexión espiritual a través de la energía de sagittarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mercury en Sagittarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mercury en Sagittarius representa un patrón psicológico donde las decisiones están influidas por las características clave de sagittarius."
+    },
+    "capricorn": {
+      "professional": "Mercury en Capricorn indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mercury en Capricorn sugiere una conexión espiritual a través de la energía de capricorn. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mercury en Capricorn te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mercury en Capricorn representa un patrón psicológico donde las decisiones están influidas por las características clave de capricorn."
+    },
+    "aquarius": {
+      "professional": "Mercury en Aquarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mercury en Aquarius sugiere una conexión espiritual a través de la energía de aquarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mercury en Aquarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mercury en Aquarius representa un patrón psicológico donde las decisiones están influidas por las características clave de aquarius."
+    },
+    "pisces": {
+      "professional": "Mercury en Pisces indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mercury en Pisces sugiere una conexión espiritual a través de la energía de pisces. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mercury en Pisces te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mercury en Pisces representa un patrón psicológico donde las decisiones están influidas por las características clave de pisces."
+    }
+  },
+  "venus": {
+    "aries": {
+      "professional": "Venus en Aries indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Venus en Aries sugiere una conexión espiritual a través de la energía de aries. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Venus en Aries te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Venus en Aries representa un patrón psicológico donde las decisiones están influidas por las características clave de aries."
+    },
+    "taurus": {
+      "professional": "Venus en Taurus indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Venus en Taurus sugiere una conexión espiritual a través de la energía de taurus. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Venus en Taurus te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Venus en Taurus representa un patrón psicológico donde las decisiones están influidas por las características clave de taurus."
+    },
+    "gemini": {
+      "professional": "Venus en Gemini indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Venus en Gemini sugiere una conexión espiritual a través de la energía de gemini. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Venus en Gemini te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Venus en Gemini representa un patrón psicológico donde las decisiones están influidas por las características clave de gemini."
+    },
+    "cancer": {
+      "professional": "Venus en Cancer indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Venus en Cancer sugiere una conexión espiritual a través de la energía de cancer. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Venus en Cancer te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Venus en Cancer representa un patrón psicológico donde las decisiones están influidas por las características clave de cancer."
+    },
+    "leo": {
+      "professional": "Venus en Leo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Venus en Leo sugiere una conexión espiritual a través de la energía de leo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Venus en Leo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Venus en Leo representa un patrón psicológico donde las decisiones están influidas por las características clave de leo."
+    },
+    "virgo": {
+      "professional": "Venus en Virgo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Venus en Virgo sugiere una conexión espiritual a través de la energía de virgo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Venus en Virgo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Venus en Virgo representa un patrón psicológico donde las decisiones están influidas por las características clave de virgo."
+    },
+    "libra": {
+      "professional": "Venus en Libra indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Venus en Libra sugiere una conexión espiritual a través de la energía de libra. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Venus en Libra te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Venus en Libra representa un patrón psicológico donde las decisiones están influidas por las características clave de libra."
+    },
+    "scorpio": {
+      "professional": "Venus en Scorpio indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Venus en Scorpio sugiere una conexión espiritual a través de la energía de scorpio. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Venus en Scorpio te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Venus en Scorpio representa un patrón psicológico donde las decisiones están influidas por las características clave de scorpio."
+    },
+    "sagittarius": {
+      "professional": "Venus en Sagittarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Venus en Sagittarius sugiere una conexión espiritual a través de la energía de sagittarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Venus en Sagittarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Venus en Sagittarius representa un patrón psicológico donde las decisiones están influidas por las características clave de sagittarius."
+    },
+    "capricorn": {
+      "professional": "Venus en Capricorn indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Venus en Capricorn sugiere una conexión espiritual a través de la energía de capricorn. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Venus en Capricorn te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Venus en Capricorn representa un patrón psicológico donde las decisiones están influidas por las características clave de capricorn."
+    },
+    "aquarius": {
+      "professional": "Venus en Aquarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Venus en Aquarius sugiere una conexión espiritual a través de la energía de aquarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Venus en Aquarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Venus en Aquarius representa un patrón psicológico donde las decisiones están influidas por las características clave de aquarius."
+    },
+    "pisces": {
+      "professional": "Venus en Pisces indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Venus en Pisces sugiere una conexión espiritual a través de la energía de pisces. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Venus en Pisces te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Venus en Pisces representa un patrón psicológico donde las decisiones están influidas por las características clave de pisces."
+    }
+  },
+  "mars": {
+    "aries": {
+      "professional": "Mars en Aries indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mars en Aries sugiere una conexión espiritual a través de la energía de aries. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mars en Aries te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mars en Aries representa un patrón psicológico donde las decisiones están influidas por las características clave de aries."
+    },
+    "taurus": {
+      "professional": "Mars en Taurus indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mars en Taurus sugiere una conexión espiritual a través de la energía de taurus. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mars en Taurus te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mars en Taurus representa un patrón psicológico donde las decisiones están influidas por las características clave de taurus."
+    },
+    "gemini": {
+      "professional": "Mars en Gemini indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mars en Gemini sugiere una conexión espiritual a través de la energía de gemini. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mars en Gemini te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mars en Gemini representa un patrón psicológico donde las decisiones están influidas por las características clave de gemini."
+    },
+    "cancer": {
+      "professional": "Mars en Cancer indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mars en Cancer sugiere una conexión espiritual a través de la energía de cancer. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mars en Cancer te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mars en Cancer representa un patrón psicológico donde las decisiones están influidas por las características clave de cancer."
+    },
+    "leo": {
+      "professional": "Mars en Leo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mars en Leo sugiere una conexión espiritual a través de la energía de leo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mars en Leo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mars en Leo representa un patrón psicológico donde las decisiones están influidas por las características clave de leo."
+    },
+    "virgo": {
+      "professional": "Mars en Virgo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mars en Virgo sugiere una conexión espiritual a través de la energía de virgo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mars en Virgo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mars en Virgo representa un patrón psicológico donde las decisiones están influidas por las características clave de virgo."
+    },
+    "libra": {
+      "professional": "Mars en Libra indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mars en Libra sugiere una conexión espiritual a través de la energía de libra. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mars en Libra te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mars en Libra representa un patrón psicológico donde las decisiones están influidas por las características clave de libra."
+    },
+    "scorpio": {
+      "professional": "Mars en Scorpio indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mars en Scorpio sugiere una conexión espiritual a través de la energía de scorpio. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mars en Scorpio te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mars en Scorpio representa un patrón psicológico donde las decisiones están influidas por las características clave de scorpio."
+    },
+    "sagittarius": {
+      "professional": "Mars en Sagittarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mars en Sagittarius sugiere una conexión espiritual a través de la energía de sagittarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mars en Sagittarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mars en Sagittarius representa un patrón psicológico donde las decisiones están influidas por las características clave de sagittarius."
+    },
+    "capricorn": {
+      "professional": "Mars en Capricorn indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mars en Capricorn sugiere una conexión espiritual a través de la energía de capricorn. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mars en Capricorn te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mars en Capricorn representa un patrón psicológico donde las decisiones están influidas por las características clave de capricorn."
+    },
+    "aquarius": {
+      "professional": "Mars en Aquarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mars en Aquarius sugiere una conexión espiritual a través de la energía de aquarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mars en Aquarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mars en Aquarius representa un patrón psicológico donde las decisiones están influidas por las características clave de aquarius."
+    },
+    "pisces": {
+      "professional": "Mars en Pisces indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Mars en Pisces sugiere una conexión espiritual a través de la energía de pisces. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Mars en Pisces te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Mars en Pisces representa un patrón psicológico donde las decisiones están influidas por las características clave de pisces."
+    }
+  },
+  "jupiter": {
+    "aries": {
+      "professional": "Jupiter en Aries indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Jupiter en Aries sugiere una conexión espiritual a través de la energía de aries. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Jupiter en Aries te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Jupiter en Aries representa un patrón psicológico donde las decisiones están influidas por las características clave de aries."
+    },
+    "taurus": {
+      "professional": "Jupiter en Taurus indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Jupiter en Taurus sugiere una conexión espiritual a través de la energía de taurus. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Jupiter en Taurus te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Jupiter en Taurus representa un patrón psicológico donde las decisiones están influidas por las características clave de taurus."
+    },
+    "gemini": {
+      "professional": "Jupiter en Gemini indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Jupiter en Gemini sugiere una conexión espiritual a través de la energía de gemini. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Jupiter en Gemini te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Jupiter en Gemini representa un patrón psicológico donde las decisiones están influidas por las características clave de gemini."
+    },
+    "cancer": {
+      "professional": "Jupiter en Cancer indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Jupiter en Cancer sugiere una conexión espiritual a través de la energía de cancer. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Jupiter en Cancer te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Jupiter en Cancer representa un patrón psicológico donde las decisiones están influidas por las características clave de cancer."
+    },
+    "leo": {
+      "professional": "Jupiter en Leo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Jupiter en Leo sugiere una conexión espiritual a través de la energía de leo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Jupiter en Leo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Jupiter en Leo representa un patrón psicológico donde las decisiones están influidas por las características clave de leo."
+    },
+    "virgo": {
+      "professional": "Jupiter en Virgo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Jupiter en Virgo sugiere una conexión espiritual a través de la energía de virgo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Jupiter en Virgo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Jupiter en Virgo representa un patrón psicológico donde las decisiones están influidas por las características clave de virgo."
+    },
+    "libra": {
+      "professional": "Jupiter en Libra indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Jupiter en Libra sugiere una conexión espiritual a través de la energía de libra. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Jupiter en Libra te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Jupiter en Libra representa un patrón psicológico donde las decisiones están influidas por las características clave de libra."
+    },
+    "scorpio": {
+      "professional": "Jupiter en Scorpio indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Jupiter en Scorpio sugiere una conexión espiritual a través de la energía de scorpio. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Jupiter en Scorpio te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Jupiter en Scorpio representa un patrón psicológico donde las decisiones están influidas por las características clave de scorpio."
+    },
+    "sagittarius": {
+      "professional": "Jupiter en Sagittarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Jupiter en Sagittarius sugiere una conexión espiritual a través de la energía de sagittarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Jupiter en Sagittarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Jupiter en Sagittarius representa un patrón psicológico donde las decisiones están influidas por las características clave de sagittarius."
+    },
+    "capricorn": {
+      "professional": "Jupiter en Capricorn indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Jupiter en Capricorn sugiere una conexión espiritual a través de la energía de capricorn. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Jupiter en Capricorn te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Jupiter en Capricorn representa un patrón psicológico donde las decisiones están influidas por las características clave de capricorn."
+    },
+    "aquarius": {
+      "professional": "Jupiter en Aquarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Jupiter en Aquarius sugiere una conexión espiritual a través de la energía de aquarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Jupiter en Aquarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Jupiter en Aquarius representa un patrón psicológico donde las decisiones están influidas por las características clave de aquarius."
+    },
+    "pisces": {
+      "professional": "Jupiter en Pisces indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Jupiter en Pisces sugiere una conexión espiritual a través de la energía de pisces. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Jupiter en Pisces te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Jupiter en Pisces representa un patrón psicológico donde las decisiones están influidas por las características clave de pisces."
+    }
+  },
+  "saturn": {
+    "aries": {
+      "professional": "Saturn en Aries indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Saturn en Aries sugiere una conexión espiritual a través de la energía de aries. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Saturn en Aries te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Saturn en Aries representa un patrón psicológico donde las decisiones están influidas por las características clave de aries."
+    },
+    "taurus": {
+      "professional": "Saturn en Taurus indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Saturn en Taurus sugiere una conexión espiritual a través de la energía de taurus. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Saturn en Taurus te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Saturn en Taurus representa un patrón psicológico donde las decisiones están influidas por las características clave de taurus."
+    },
+    "gemini": {
+      "professional": "Saturn en Gemini indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Saturn en Gemini sugiere una conexión espiritual a través de la energía de gemini. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Saturn en Gemini te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Saturn en Gemini representa un patrón psicológico donde las decisiones están influidas por las características clave de gemini."
+    },
+    "cancer": {
+      "professional": "Saturn en Cancer indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Saturn en Cancer sugiere una conexión espiritual a través de la energía de cancer. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Saturn en Cancer te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Saturn en Cancer representa un patrón psicológico donde las decisiones están influidas por las características clave de cancer."
+    },
+    "leo": {
+      "professional": "Saturn en Leo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Saturn en Leo sugiere una conexión espiritual a través de la energía de leo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Saturn en Leo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Saturn en Leo representa un patrón psicológico donde las decisiones están influidas por las características clave de leo."
+    },
+    "virgo": {
+      "professional": "Saturn en Virgo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Saturn en Virgo sugiere una conexión espiritual a través de la energía de virgo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Saturn en Virgo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Saturn en Virgo representa un patrón psicológico donde las decisiones están influidas por las características clave de virgo."
+    },
+    "libra": {
+      "professional": "Saturn en Libra indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Saturn en Libra sugiere una conexión espiritual a través de la energía de libra. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Saturn en Libra te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Saturn en Libra representa un patrón psicológico donde las decisiones están influidas por las características clave de libra."
+    },
+    "scorpio": {
+      "professional": "Saturn en Scorpio indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Saturn en Scorpio sugiere una conexión espiritual a través de la energía de scorpio. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Saturn en Scorpio te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Saturn en Scorpio representa un patrón psicológico donde las decisiones están influidas por las características clave de scorpio."
+    },
+    "sagittarius": {
+      "professional": "Saturn en Sagittarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Saturn en Sagittarius sugiere una conexión espiritual a través de la energía de sagittarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Saturn en Sagittarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Saturn en Sagittarius representa un patrón psicológico donde las decisiones están influidas por las características clave de sagittarius."
+    },
+    "capricorn": {
+      "professional": "Saturn en Capricorn indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Saturn en Capricorn sugiere una conexión espiritual a través de la energía de capricorn. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Saturn en Capricorn te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Saturn en Capricorn representa un patrón psicológico donde las decisiones están influidas por las características clave de capricorn."
+    },
+    "aquarius": {
+      "professional": "Saturn en Aquarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Saturn en Aquarius sugiere una conexión espiritual a través de la energía de aquarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Saturn en Aquarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Saturn en Aquarius representa un patrón psicológico donde las decisiones están influidas por las características clave de aquarius."
+    },
+    "pisces": {
+      "professional": "Saturn en Pisces indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Saturn en Pisces sugiere una conexión espiritual a través de la energía de pisces. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Saturn en Pisces te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Saturn en Pisces representa un patrón psicológico donde las decisiones están influidas por las características clave de pisces."
+    }
+  },
+  "uranus": {
+    "aries": {
+      "professional": "Uranus en Aries indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Uranus en Aries sugiere una conexión espiritual a través de la energía de aries. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Uranus en Aries te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Uranus en Aries representa un patrón psicológico donde las decisiones están influidas por las características clave de aries."
+    },
+    "taurus": {
+      "professional": "Uranus en Taurus indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Uranus en Taurus sugiere una conexión espiritual a través de la energía de taurus. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Uranus en Taurus te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Uranus en Taurus representa un patrón psicológico donde las decisiones están influidas por las características clave de taurus."
+    },
+    "gemini": {
+      "professional": "Uranus en Gemini indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Uranus en Gemini sugiere una conexión espiritual a través de la energía de gemini. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Uranus en Gemini te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Uranus en Gemini representa un patrón psicológico donde las decisiones están influidas por las características clave de gemini."
+    },
+    "cancer": {
+      "professional": "Uranus en Cancer indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Uranus en Cancer sugiere una conexión espiritual a través de la energía de cancer. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Uranus en Cancer te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Uranus en Cancer representa un patrón psicológico donde las decisiones están influidas por las características clave de cancer."
+    },
+    "leo": {
+      "professional": "Uranus en Leo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Uranus en Leo sugiere una conexión espiritual a través de la energía de leo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Uranus en Leo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Uranus en Leo representa un patrón psicológico donde las decisiones están influidas por las características clave de leo."
+    },
+    "virgo": {
+      "professional": "Uranus en Virgo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Uranus en Virgo sugiere una conexión espiritual a través de la energía de virgo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Uranus en Virgo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Uranus en Virgo representa un patrón psicológico donde las decisiones están influidas por las características clave de virgo."
+    },
+    "libra": {
+      "professional": "Uranus en Libra indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Uranus en Libra sugiere una conexión espiritual a través de la energía de libra. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Uranus en Libra te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Uranus en Libra representa un patrón psicológico donde las decisiones están influidas por las características clave de libra."
+    },
+    "scorpio": {
+      "professional": "Uranus en Scorpio indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Uranus en Scorpio sugiere una conexión espiritual a través de la energía de scorpio. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Uranus en Scorpio te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Uranus en Scorpio representa un patrón psicológico donde las decisiones están influidas por las características clave de scorpio."
+    },
+    "sagittarius": {
+      "professional": "Uranus en Sagittarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Uranus en Sagittarius sugiere una conexión espiritual a través de la energía de sagittarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Uranus en Sagittarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Uranus en Sagittarius representa un patrón psicológico donde las decisiones están influidas por las características clave de sagittarius."
+    },
+    "capricorn": {
+      "professional": "Uranus en Capricorn indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Uranus en Capricorn sugiere una conexión espiritual a través de la energía de capricorn. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Uranus en Capricorn te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Uranus en Capricorn representa un patrón psicológico donde las decisiones están influidas por las características clave de capricorn."
+    },
+    "aquarius": {
+      "professional": "Uranus en Aquarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Uranus en Aquarius sugiere una conexión espiritual a través de la energía de aquarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Uranus en Aquarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Uranus en Aquarius representa un patrón psicológico donde las decisiones están influidas por las características clave de aquarius."
+    },
+    "pisces": {
+      "professional": "Uranus en Pisces indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Uranus en Pisces sugiere una conexión espiritual a través de la energía de pisces. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Uranus en Pisces te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Uranus en Pisces representa un patrón psicológico donde las decisiones están influidas por las características clave de pisces."
+    }
+  },
+  "neptune": {
+    "aries": {
+      "professional": "Neptune en Aries indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Neptune en Aries sugiere una conexión espiritual a través de la energía de aries. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Neptune en Aries te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Neptune en Aries representa un patrón psicológico donde las decisiones están influidas por las características clave de aries."
+    },
+    "taurus": {
+      "professional": "Neptune en Taurus indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Neptune en Taurus sugiere una conexión espiritual a través de la energía de taurus. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Neptune en Taurus te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Neptune en Taurus representa un patrón psicológico donde las decisiones están influidas por las características clave de taurus."
+    },
+    "gemini": {
+      "professional": "Neptune en Gemini indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Neptune en Gemini sugiere una conexión espiritual a través de la energía de gemini. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Neptune en Gemini te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Neptune en Gemini representa un patrón psicológico donde las decisiones están influidas por las características clave de gemini."
+    },
+    "cancer": {
+      "professional": "Neptune en Cancer indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Neptune en Cancer sugiere una conexión espiritual a través de la energía de cancer. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Neptune en Cancer te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Neptune en Cancer representa un patrón psicológico donde las decisiones están influidas por las características clave de cancer."
+    },
+    "leo": {
+      "professional": "Neptune en Leo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Neptune en Leo sugiere una conexión espiritual a través de la energía de leo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Neptune en Leo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Neptune en Leo representa un patrón psicológico donde las decisiones están influidas por las características clave de leo."
+    },
+    "virgo": {
+      "professional": "Neptune en Virgo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Neptune en Virgo sugiere una conexión espiritual a través de la energía de virgo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Neptune en Virgo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Neptune en Virgo representa un patrón psicológico donde las decisiones están influidas por las características clave de virgo."
+    },
+    "libra": {
+      "professional": "Neptune en Libra indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Neptune en Libra sugiere una conexión espiritual a través de la energía de libra. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Neptune en Libra te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Neptune en Libra representa un patrón psicológico donde las decisiones están influidas por las características clave de libra."
+    },
+    "scorpio": {
+      "professional": "Neptune en Scorpio indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Neptune en Scorpio sugiere una conexión espiritual a través de la energía de scorpio. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Neptune en Scorpio te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Neptune en Scorpio representa un patrón psicológico donde las decisiones están influidas por las características clave de scorpio."
+    },
+    "sagittarius": {
+      "professional": "Neptune en Sagittarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Neptune en Sagittarius sugiere una conexión espiritual a través de la energía de sagittarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Neptune en Sagittarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Neptune en Sagittarius representa un patrón psicológico donde las decisiones están influidas por las características clave de sagittarius."
+    },
+    "capricorn": {
+      "professional": "Neptune en Capricorn indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Neptune en Capricorn sugiere una conexión espiritual a través de la energía de capricorn. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Neptune en Capricorn te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Neptune en Capricorn representa un patrón psicológico donde las decisiones están influidas por las características clave de capricorn."
+    },
+    "aquarius": {
+      "professional": "Neptune en Aquarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Neptune en Aquarius sugiere una conexión espiritual a través de la energía de aquarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Neptune en Aquarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Neptune en Aquarius representa un patrón psicológico donde las decisiones están influidas por las características clave de aquarius."
+    },
+    "pisces": {
+      "professional": "Neptune en Pisces indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Neptune en Pisces sugiere una conexión espiritual a través de la energía de pisces. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Neptune en Pisces te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Neptune en Pisces representa un patrón psicológico donde las decisiones están influidas por las características clave de pisces."
+    }
+  },
+  "pluto": {
+    "aries": {
+      "professional": "Pluto en Aries indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Pluto en Aries sugiere una conexión espiritual a través de la energía de aries. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Pluto en Aries te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Pluto en Aries representa un patrón psicológico donde las decisiones están influidas por las características clave de aries."
+    },
+    "taurus": {
+      "professional": "Pluto en Taurus indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Pluto en Taurus sugiere una conexión espiritual a través de la energía de taurus. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Pluto en Taurus te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Pluto en Taurus representa un patrón psicológico donde las decisiones están influidas por las características clave de taurus."
+    },
+    "gemini": {
+      "professional": "Pluto en Gemini indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Pluto en Gemini sugiere una conexión espiritual a través de la energía de gemini. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Pluto en Gemini te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Pluto en Gemini representa un patrón psicológico donde las decisiones están influidas por las características clave de gemini."
+    },
+    "cancer": {
+      "professional": "Pluto en Cancer indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Pluto en Cancer sugiere una conexión espiritual a través de la energía de cancer. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Pluto en Cancer te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Pluto en Cancer representa un patrón psicológico donde las decisiones están influidas por las características clave de cancer."
+    },
+    "leo": {
+      "professional": "Pluto en Leo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Pluto en Leo sugiere una conexión espiritual a través de la energía de leo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Pluto en Leo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Pluto en Leo representa un patrón psicológico donde las decisiones están influidas por las características clave de leo."
+    },
+    "virgo": {
+      "professional": "Pluto en Virgo indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Pluto en Virgo sugiere una conexión espiritual a través de la energía de virgo. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Pluto en Virgo te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Pluto en Virgo representa un patrón psicológico donde las decisiones están influidas por las características clave de virgo."
+    },
+    "libra": {
+      "professional": "Pluto en Libra indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Pluto en Libra sugiere una conexión espiritual a través de la energía de libra. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Pluto en Libra te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Pluto en Libra representa un patrón psicológico donde las decisiones están influidas por las características clave de libra."
+    },
+    "scorpio": {
+      "professional": "Pluto en Scorpio indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Pluto en Scorpio sugiere una conexión espiritual a través de la energía de scorpio. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Pluto en Scorpio te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Pluto en Scorpio representa un patrón psicológico donde las decisiones están influidas por las características clave de scorpio."
+    },
+    "sagittarius": {
+      "professional": "Pluto en Sagittarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Pluto en Sagittarius sugiere una conexión espiritual a través de la energía de sagittarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Pluto en Sagittarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Pluto en Sagittarius representa un patrón psicológico donde las decisiones están influidas por las características clave de sagittarius."
+    },
+    "capricorn": {
+      "professional": "Pluto en Capricorn indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Pluto en Capricorn sugiere una conexión espiritual a través de la energía de capricorn. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Pluto en Capricorn te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Pluto en Capricorn representa un patrón psicológico donde las decisiones están influidas por las características clave de capricorn."
+    },
+    "aquarius": {
+      "professional": "Pluto en Aquarius indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Pluto en Aquarius sugiere una conexión espiritual a través de la energía de aquarius. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Pluto en Aquarius te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Pluto en Aquarius representa un patrón psicológico donde las decisiones están influidas por las características clave de aquarius."
+    },
+    "pisces": {
+      "professional": "Pluto en Pisces indica una expresión energética enfocada en metas profesionales, disciplina y resultados concretos.",
+      "spiritual": "Pluto en Pisces sugiere una conexión espiritual a través de la energía de pisces. Hay un llamado interno hacia el crecimiento trascendental.",
+      "youth": "Pluto en Pisces te hace actuar como alguien con mucha energía y ganas de explorar. ¡Siempre buscando nuevas experiencias!",
+      "psychological": "Pluto en Pisces representa un patrón psicológico donde las decisiones están influidas por las características clave de pisces."
+    }
+  },
+  "houses":{
+  "1": {
+    "aries": {
+      "professional": "Casa 1 en Aries: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 1 en Aries: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 1 en Aries: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 1 en Aries: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "taurus": {
+      "professional": "Casa 1 en Taurus: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 1 en Taurus: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 1 en Taurus: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 1 en Taurus: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "gemini": {
+      "professional": "Casa 1 en Gemini: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 1 en Gemini: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 1 en Gemini: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 1 en Gemini: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "cancer": {
+      "professional": "Casa 1 en Cancer: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 1 en Cancer: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 1 en Cancer: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 1 en Cancer: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "leo": {
+      "professional": "Casa 1 en Leo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 1 en Leo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 1 en Leo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 1 en Leo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "virgo": {
+      "professional": "Casa 1 en Virgo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 1 en Virgo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 1 en Virgo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 1 en Virgo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "libra": {
+      "professional": "Casa 1 en Libra: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 1 en Libra: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 1 en Libra: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 1 en Libra: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "scorpio": {
+      "professional": "Casa 1 en Scorpio: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 1 en Scorpio: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 1 en Scorpio: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 1 en Scorpio: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "sagittarius": {
+      "professional": "Casa 1 en Sagittarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 1 en Sagittarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 1 en Sagittarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 1 en Sagittarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "capricorn": {
+      "professional": "Casa 1 en Capricorn: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 1 en Capricorn: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 1 en Capricorn: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 1 en Capricorn: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "aquarius": {
+      "professional": "Casa 1 en Aquarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 1 en Aquarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 1 en Aquarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 1 en Aquarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "pisces": {
+      "professional": "Casa 1 en Pisces: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 1 en Pisces: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 1 en Pisces: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 1 en Pisces: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    }
+  },
+  "2": {
+    "aries": {
+      "professional": "Casa 2 en Aries: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 2 en Aries: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 2 en Aries: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 2 en Aries: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "taurus": {
+      "professional": "Casa 2 en Taurus: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 2 en Taurus: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 2 en Taurus: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 2 en Taurus: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "gemini": {
+      "professional": "Casa 2 en Gemini: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 2 en Gemini: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 2 en Gemini: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 2 en Gemini: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "cancer": {
+      "professional": "Casa 2 en Cancer: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 2 en Cancer: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 2 en Cancer: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 2 en Cancer: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "leo": {
+      "professional": "Casa 2 en Leo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 2 en Leo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 2 en Leo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 2 en Leo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "virgo": {
+      "professional": "Casa 2 en Virgo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 2 en Virgo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 2 en Virgo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 2 en Virgo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "libra": {
+      "professional": "Casa 2 en Libra: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 2 en Libra: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 2 en Libra: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 2 en Libra: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "scorpio": {
+      "professional": "Casa 2 en Scorpio: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 2 en Scorpio: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 2 en Scorpio: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 2 en Scorpio: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "sagittarius": {
+      "professional": "Casa 2 en Sagittarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 2 en Sagittarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 2 en Sagittarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 2 en Sagittarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "capricorn": {
+      "professional": "Casa 2 en Capricorn: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 2 en Capricorn: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 2 en Capricorn: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 2 en Capricorn: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "aquarius": {
+      "professional": "Casa 2 en Aquarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 2 en Aquarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 2 en Aquarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 2 en Aquarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "pisces": {
+      "professional": "Casa 2 en Pisces: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 2 en Pisces: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 2 en Pisces: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 2 en Pisces: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    }
+  },
+  "3": {
+    "aries": {
+      "professional": "Casa 3 en Aries: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 3 en Aries: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 3 en Aries: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 3 en Aries: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "taurus": {
+      "professional": "Casa 3 en Taurus: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 3 en Taurus: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 3 en Taurus: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 3 en Taurus: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "gemini": {
+      "professional": "Casa 3 en Gemini: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 3 en Gemini: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 3 en Gemini: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 3 en Gemini: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "cancer": {
+      "professional": "Casa 3 en Cancer: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 3 en Cancer: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 3 en Cancer: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 3 en Cancer: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "leo": {
+      "professional": "Casa 3 en Leo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 3 en Leo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 3 en Leo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 3 en Leo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "virgo": {
+      "professional": "Casa 3 en Virgo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 3 en Virgo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 3 en Virgo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 3 en Virgo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "libra": {
+      "professional": "Casa 3 en Libra: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 3 en Libra: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 3 en Libra: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 3 en Libra: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "scorpio": {
+      "professional": "Casa 3 en Scorpio: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 3 en Scorpio: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 3 en Scorpio: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 3 en Scorpio: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "sagittarius": {
+      "professional": "Casa 3 en Sagittarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 3 en Sagittarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 3 en Sagittarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 3 en Sagittarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "capricorn": {
+      "professional": "Casa 3 en Capricorn: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 3 en Capricorn: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 3 en Capricorn: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 3 en Capricorn: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "aquarius": {
+      "professional": "Casa 3 en Aquarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 3 en Aquarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 3 en Aquarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 3 en Aquarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "pisces": {
+      "professional": "Casa 3 en Pisces: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 3 en Pisces: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 3 en Pisces: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 3 en Pisces: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    }
+  },
+  "4": {
+    "aries": {
+      "professional": "Casa 4 en Aries: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 4 en Aries: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 4 en Aries: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 4 en Aries: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "taurus": {
+      "professional": "Casa 4 en Taurus: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 4 en Taurus: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 4 en Taurus: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 4 en Taurus: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "gemini": {
+      "professional": "Casa 4 en Gemini: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 4 en Gemini: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 4 en Gemini: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 4 en Gemini: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "cancer": {
+      "professional": "Casa 4 en Cancer: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 4 en Cancer: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 4 en Cancer: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 4 en Cancer: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "leo": {
+      "professional": "Casa 4 en Leo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 4 en Leo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 4 en Leo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 4 en Leo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "virgo": {
+      "professional": "Casa 4 en Virgo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 4 en Virgo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 4 en Virgo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 4 en Virgo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "libra": {
+      "professional": "Casa 4 en Libra: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 4 en Libra: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 4 en Libra: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 4 en Libra: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "scorpio": {
+      "professional": "Casa 4 en Scorpio: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 4 en Scorpio: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 4 en Scorpio: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 4 en Scorpio: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "sagittarius": {
+      "professional": "Casa 4 en Sagittarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 4 en Sagittarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 4 en Sagittarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 4 en Sagittarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "capricorn": {
+      "professional": "Casa 4 en Capricorn: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 4 en Capricorn: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 4 en Capricorn: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 4 en Capricorn: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "aquarius": {
+      "professional": "Casa 4 en Aquarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 4 en Aquarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 4 en Aquarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 4 en Aquarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "pisces": {
+      "professional": "Casa 4 en Pisces: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 4 en Pisces: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 4 en Pisces: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 4 en Pisces: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    }
+  },
+  "5": {
+    "aries": {
+      "professional": "Casa 5 en Aries: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 5 en Aries: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 5 en Aries: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 5 en Aries: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "taurus": {
+      "professional": "Casa 5 en Taurus: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 5 en Taurus: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 5 en Taurus: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 5 en Taurus: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "gemini": {
+      "professional": "Casa 5 en Gemini: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 5 en Gemini: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 5 en Gemini: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 5 en Gemini: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "cancer": {
+      "professional": "Casa 5 en Cancer: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 5 en Cancer: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 5 en Cancer: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 5 en Cancer: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "leo": {
+      "professional": "Casa 5 en Leo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 5 en Leo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 5 en Leo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 5 en Leo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "virgo": {
+      "professional": "Casa 5 en Virgo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 5 en Virgo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 5 en Virgo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 5 en Virgo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "libra": {
+      "professional": "Casa 5 en Libra: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 5 en Libra: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 5 en Libra: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 5 en Libra: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "scorpio": {
+      "professional": "Casa 5 en Scorpio: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 5 en Scorpio: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 5 en Scorpio: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 5 en Scorpio: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "sagittarius": {
+      "professional": "Casa 5 en Sagittarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 5 en Sagittarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 5 en Sagittarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 5 en Sagittarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "capricorn": {
+      "professional": "Casa 5 en Capricorn: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 5 en Capricorn: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 5 en Capricorn: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 5 en Capricorn: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "aquarius": {
+      "professional": "Casa 5 en Aquarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 5 en Aquarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 5 en Aquarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 5 en Aquarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "pisces": {
+      "professional": "Casa 5 en Pisces: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 5 en Pisces: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 5 en Pisces: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 5 en Pisces: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    }
+  },
+  "6": {
+    "aries": {
+      "professional": "Casa 6 en Aries: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 6 en Aries: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 6 en Aries: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 6 en Aries: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "taurus": {
+      "professional": "Casa 6 en Taurus: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 6 en Taurus: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 6 en Taurus: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 6 en Taurus: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "gemini": {
+      "professional": "Casa 6 en Gemini: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 6 en Gemini: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 6 en Gemini: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 6 en Gemini: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "cancer": {
+      "professional": "Casa 6 en Cancer: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 6 en Cancer: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 6 en Cancer: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 6 en Cancer: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "leo": {
+      "professional": "Casa 6 en Leo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 6 en Leo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 6 en Leo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 6 en Leo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "virgo": {
+      "professional": "Casa 6 en Virgo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 6 en Virgo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 6 en Virgo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 6 en Virgo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "libra": {
+      "professional": "Casa 6 en Libra: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 6 en Libra: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 6 en Libra: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 6 en Libra: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "scorpio": {
+      "professional": "Casa 6 en Scorpio: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 6 en Scorpio: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 6 en Scorpio: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 6 en Scorpio: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "sagittarius": {
+      "professional": "Casa 6 en Sagittarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 6 en Sagittarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 6 en Sagittarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 6 en Sagittarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "capricorn": {
+      "professional": "Casa 6 en Capricorn: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 6 en Capricorn: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 6 en Capricorn: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 6 en Capricorn: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "aquarius": {
+      "professional": "Casa 6 en Aquarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 6 en Aquarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 6 en Aquarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 6 en Aquarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "pisces": {
+      "professional": "Casa 6 en Pisces: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 6 en Pisces: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 6 en Pisces: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 6 en Pisces: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    }
+  },
+  "7": {
+    "aries": {
+      "professional": "Casa 7 en Aries: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 7 en Aries: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 7 en Aries: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 7 en Aries: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "taurus": {
+      "professional": "Casa 7 en Taurus: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 7 en Taurus: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 7 en Taurus: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 7 en Taurus: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "gemini": {
+      "professional": "Casa 7 en Gemini: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 7 en Gemini: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 7 en Gemini: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 7 en Gemini: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "cancer": {
+      "professional": "Casa 7 en Cancer: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 7 en Cancer: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 7 en Cancer: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 7 en Cancer: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "leo": {
+      "professional": "Casa 7 en Leo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 7 en Leo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 7 en Leo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 7 en Leo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "virgo": {
+      "professional": "Casa 7 en Virgo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 7 en Virgo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 7 en Virgo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 7 en Virgo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "libra": {
+      "professional": "Casa 7 en Libra: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 7 en Libra: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 7 en Libra: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 7 en Libra: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "scorpio": {
+      "professional": "Casa 7 en Scorpio: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 7 en Scorpio: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 7 en Scorpio: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 7 en Scorpio: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "sagittarius": {
+      "professional": "Casa 7 en Sagittarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 7 en Sagittarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 7 en Sagittarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 7 en Sagittarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "capricorn": {
+      "professional": "Casa 7 en Capricorn: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 7 en Capricorn: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 7 en Capricorn: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 7 en Capricorn: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "aquarius": {
+      "professional": "Casa 7 en Aquarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 7 en Aquarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 7 en Aquarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 7 en Aquarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "pisces": {
+      "professional": "Casa 7 en Pisces: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 7 en Pisces: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 7 en Pisces: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 7 en Pisces: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    }
+  },
+  "8": {
+    "aries": {
+      "professional": "Casa 8 en Aries: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 8 en Aries: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 8 en Aries: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 8 en Aries: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "taurus": {
+      "professional": "Casa 8 en Taurus: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 8 en Taurus: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 8 en Taurus: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 8 en Taurus: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "gemini": {
+      "professional": "Casa 8 en Gemini: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 8 en Gemini: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 8 en Gemini: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 8 en Gemini: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "cancer": {
+      "professional": "Casa 8 en Cancer: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 8 en Cancer: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 8 en Cancer: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 8 en Cancer: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "leo": {
+      "professional": "Casa 8 en Leo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 8 en Leo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 8 en Leo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 8 en Leo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "virgo": {
+      "professional": "Casa 8 en Virgo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 8 en Virgo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 8 en Virgo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 8 en Virgo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "libra": {
+      "professional": "Casa 8 en Libra: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 8 en Libra: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 8 en Libra: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 8 en Libra: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "scorpio": {
+      "professional": "Casa 8 en Scorpio: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 8 en Scorpio: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 8 en Scorpio: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 8 en Scorpio: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "sagittarius": {
+      "professional": "Casa 8 en Sagittarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 8 en Sagittarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 8 en Sagittarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 8 en Sagittarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "capricorn": {
+      "professional": "Casa 8 en Capricorn: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 8 en Capricorn: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 8 en Capricorn: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 8 en Capricorn: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "aquarius": {
+      "professional": "Casa 8 en Aquarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 8 en Aquarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 8 en Aquarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 8 en Aquarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "pisces": {
+      "professional": "Casa 8 en Pisces: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 8 en Pisces: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 8 en Pisces: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 8 en Pisces: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    }
+  },
+  "9": {
+    "aries": {
+      "professional": "Casa 9 en Aries: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 9 en Aries: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 9 en Aries: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 9 en Aries: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "taurus": {
+      "professional": "Casa 9 en Taurus: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 9 en Taurus: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 9 en Taurus: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 9 en Taurus: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "gemini": {
+      "professional": "Casa 9 en Gemini: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 9 en Gemini: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 9 en Gemini: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 9 en Gemini: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "cancer": {
+      "professional": "Casa 9 en Cancer: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 9 en Cancer: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 9 en Cancer: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 9 en Cancer: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "leo": {
+      "professional": "Casa 9 en Leo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 9 en Leo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 9 en Leo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 9 en Leo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "virgo": {
+      "professional": "Casa 9 en Virgo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 9 en Virgo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 9 en Virgo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 9 en Virgo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "libra": {
+      "professional": "Casa 9 en Libra: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 9 en Libra: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 9 en Libra: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 9 en Libra: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "scorpio": {
+      "professional": "Casa 9 en Scorpio: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 9 en Scorpio: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 9 en Scorpio: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 9 en Scorpio: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "sagittarius": {
+      "professional": "Casa 9 en Sagittarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 9 en Sagittarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 9 en Sagittarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 9 en Sagittarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "capricorn": {
+      "professional": "Casa 9 en Capricorn: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 9 en Capricorn: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 9 en Capricorn: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 9 en Capricorn: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "aquarius": {
+      "professional": "Casa 9 en Aquarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 9 en Aquarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 9 en Aquarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 9 en Aquarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "pisces": {
+      "professional": "Casa 9 en Pisces: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 9 en Pisces: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 9 en Pisces: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 9 en Pisces: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    }
+  },
+  "10": {
+    "aries": {
+      "professional": "Casa 10 en Aries: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 10 en Aries: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 10 en Aries: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 10 en Aries: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "taurus": {
+      "professional": "Casa 10 en Taurus: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 10 en Taurus: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 10 en Taurus: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 10 en Taurus: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "gemini": {
+      "professional": "Casa 10 en Gemini: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 10 en Gemini: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 10 en Gemini: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 10 en Gemini: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "cancer": {
+      "professional": "Casa 10 en Cancer: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 10 en Cancer: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 10 en Cancer: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 10 en Cancer: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "leo": {
+      "professional": "Casa 10 en Leo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 10 en Leo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 10 en Leo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 10 en Leo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "virgo": {
+      "professional": "Casa 10 en Virgo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 10 en Virgo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 10 en Virgo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 10 en Virgo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "libra": {
+      "professional": "Casa 10 en Libra: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 10 en Libra: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 10 en Libra: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 10 en Libra: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "scorpio": {
+      "professional": "Casa 10 en Scorpio: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 10 en Scorpio: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 10 en Scorpio: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 10 en Scorpio: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "sagittarius": {
+      "professional": "Casa 10 en Sagittarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 10 en Sagittarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 10 en Sagittarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 10 en Sagittarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "capricorn": {
+      "professional": "Casa 10 en Capricorn: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 10 en Capricorn: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 10 en Capricorn: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 10 en Capricorn: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "aquarius": {
+      "professional": "Casa 10 en Aquarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 10 en Aquarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 10 en Aquarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 10 en Aquarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "pisces": {
+      "professional": "Casa 10 en Pisces: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 10 en Pisces: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 10 en Pisces: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 10 en Pisces: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    }
+  },
+  "11": {
+    "aries": {
+      "professional": "Casa 11 en Aries: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 11 en Aries: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 11 en Aries: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 11 en Aries: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "taurus": {
+      "professional": "Casa 11 en Taurus: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 11 en Taurus: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 11 en Taurus: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 11 en Taurus: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "gemini": {
+      "professional": "Casa 11 en Gemini: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 11 en Gemini: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 11 en Gemini: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 11 en Gemini: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "cancer": {
+      "professional": "Casa 11 en Cancer: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 11 en Cancer: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 11 en Cancer: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 11 en Cancer: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "leo": {
+      "professional": "Casa 11 en Leo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 11 en Leo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 11 en Leo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 11 en Leo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "virgo": {
+      "professional": "Casa 11 en Virgo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 11 en Virgo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 11 en Virgo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 11 en Virgo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "libra": {
+      "professional": "Casa 11 en Libra: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 11 en Libra: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 11 en Libra: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 11 en Libra: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "scorpio": {
+      "professional": "Casa 11 en Scorpio: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 11 en Scorpio: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 11 en Scorpio: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 11 en Scorpio: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "sagittarius": {
+      "professional": "Casa 11 en Sagittarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 11 en Sagittarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 11 en Sagittarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 11 en Sagittarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "capricorn": {
+      "professional": "Casa 11 en Capricorn: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 11 en Capricorn: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 11 en Capricorn: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 11 en Capricorn: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "aquarius": {
+      "professional": "Casa 11 en Aquarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 11 en Aquarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 11 en Aquarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 11 en Aquarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "pisces": {
+      "professional": "Casa 11 en Pisces: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 11 en Pisces: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 11 en Pisces: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 11 en Pisces: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    }
+  },
+  "12": {
+    "aries": {
+      "professional": "Casa 12 en Aries: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 12 en Aries: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 12 en Aries: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 12 en Aries: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "taurus": {
+      "professional": "Casa 12 en Taurus: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 12 en Taurus: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 12 en Taurus: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 12 en Taurus: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "gemini": {
+      "professional": "Casa 12 en Gemini: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 12 en Gemini: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 12 en Gemini: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 12 en Gemini: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "cancer": {
+      "professional": "Casa 12 en Cancer: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 12 en Cancer: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 12 en Cancer: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 12 en Cancer: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "leo": {
+      "professional": "Casa 12 en Leo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 12 en Leo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 12 en Leo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 12 en Leo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "virgo": {
+      "professional": "Casa 12 en Virgo: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 12 en Virgo: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 12 en Virgo: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 12 en Virgo: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "libra": {
+      "professional": "Casa 12 en Libra: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 12 en Libra: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 12 en Libra: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 12 en Libra: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "scorpio": {
+      "professional": "Casa 12 en Scorpio: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 12 en Scorpio: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 12 en Scorpio: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 12 en Scorpio: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "sagittarius": {
+      "professional": "Casa 12 en Sagittarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 12 en Sagittarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 12 en Sagittarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 12 en Sagittarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "capricorn": {
+      "professional": "Casa 12 en Capricorn: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 12 en Capricorn: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 12 en Capricorn: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 12 en Capricorn: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "aquarius": {
+      "professional": "Casa 12 en Aquarius: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 12 en Aquarius: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 12 en Aquarius: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 12 en Aquarius: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    },
+    "pisces": {
+      "professional": "Casa 12 en Pisces: En este perfil profesional, esta combinación indica un enfoque disciplinado y enfocado hacia los asuntos de la casa.",
+      "spiritual": "Casa 12 en Pisces: Espiritualmente, esta combinación sugiere una conexión interna profunda en los temas de esta casa.",
+      "youth": "Casa 12 en Pisces: Desde una perspectiva juvenil, hay un impulso activo y curioso hacia los temas de esta casa.",
+      "psychological": "Casa 12 en Pisces: Psicológicamente, esta posición refleja actitudes y patrones emocionales relevantes en esta área de la vida."
+    }
   }
 }
+}
+

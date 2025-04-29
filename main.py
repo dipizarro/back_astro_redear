@@ -33,12 +33,13 @@ app.add_middleware(
 
 @app.post("/api/chart/")
 async def get_chart(data: ChartRequest):
-    date = datetime.fromisoformat(data.date).replace(tzinfo=timezone.utc)
-    location = wgs84.latlon(data.latitude, data.longitude)
-    positions = get_planet_positions(load.timescale().from_datetime(date), location)
-    reading = interpret(positions)
-
+    positions = get_planet_positions(
+        data.date, str(data.latitude), str(data.longitude)
+    )
+    reading = interpret(positions, data.type)  # <--- pasa el tipo
     return {
         "positions": positions,
         "reading": reading
     }
+
+
