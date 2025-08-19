@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from astro.calculator import get_planet_positions
 from astro.interpreter import interpret
@@ -32,11 +32,11 @@ app.add_middleware(
 )
 
 @app.post("/api/chart/")
-async def get_chart(data: ChartRequest):
+async def get_chart(data: ChartRequest, type: str = Query("professional", enum=["professional", "spiritual", "psychological", "youth"])):
     positions = get_planet_positions(
         data.date, str(data.latitude), str(data.longitude)
     )
-    reading = interpret(positions, data.type)  # <--- pasa el tipo
+    reading = interpret(positions, type=type)
     return {
         "positions": positions,
         "reading": reading

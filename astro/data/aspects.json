@@ -1,0 +1,661 @@
+{
+  "sol": {
+    "luna": {
+      "conjunción": {
+        "clasico": "El Sol y la Luna en conjunción indican una fuerte integración entre tu voluntad y tus emociones. Tu identidad y tu mundo interno están alineados, lo que te da coherencia y seguridad.",
+        "psicologico": "Esta conjunción muestra una personalidad con gran potencial de autoconocimiento. Tus emociones y tu ego trabajan juntos, facilitando el desarrollo personal.",
+        "practico": "Puedes tomar decisiones con confianza, ya que lo que sientes y lo que quieres suelen coincidir. Aprovecha esta armonía para avanzar en tus proyectos.",
+        "espiritual": "Tu luz interior y tu sensibilidad se fusionan, permitiéndote irradiar autenticidad y empatía a tu entorno.",
+        "general": "Sol y Luna en conjunción te otorgan coherencia entre lo que eres y lo que sientes."
+      },
+      "oposición": {
+        "clasico": "El Sol y la Luna en oposición pueden indicar conflictos entre tu voluntad y tus emociones. Es importante buscar el equilibrio entre lo que deseas y lo que sientes.",
+        "psicologico": "Esta oposición puede manifestarse como una lucha interna entre tu identidad y tus necesidades emocionales. Trabaja la integración de ambas partes.",
+        "practico": "A veces puedes sentirte dividido entre lo que quieres y lo que necesitas. Aprende a escuchar ambas voces antes de actuar.",
+        "espiritual": "El desafío es armonizar tu energía vital con tu mundo emocional, encontrando paz en la dualidad.",
+        "general": "Sol y Luna en oposición pueden mostrar tensiones entre tu yo consciente y tu mundo interno."
+      }
+    },
+    "mercurio": {
+      "conjunción": "En tu carta, Sol y Mercurio en conjunción te dan una mente e identidad alineadas. Tienes facilidad para comunicar lo que piensas y sientes.",
+      "oposición": "Sol y Mercurio en oposición pueden mostrar contradicciones entre pensamiento y acción. El reto es encontrar coherencia interna.",
+      "trígono": "Sol y Mercurio en trígono te otorgan claridad mental y expresión auténtica.",
+      "cuadratura": "Sol y Mercurio en cuadratura pueden indicar dispersión o contradicción interna. Aprende a integrar tus ideas con tu voluntad.",
+      "sextil": "Sol y Mercurio en sextil te dan buena capacidad para aprender y comunicar tus ideas propias."
+    },
+    "venus": {
+      "conjunción": "En tu carta, Sol y Venus en conjunción te dan encanto personal, creatividad y búsqueda de armonía. Tu presencia es atractiva y disfrutas de la belleza.",
+      "oposición": "Sol y Venus en oposición pueden mostrar dificultad para equilibrar tu deseo personal y tus relaciones. Aprende a armonizar tu individualidad con el amor.",
+      "trígono": "Sol y Venus en trígono te facilitan atraer afecto y disfrutar de la vida con alegría.",
+      "cuadratura": "Sol y Venus en cuadratura pueden traer tensiones entre el amor propio y el amor a los demás. Trabaja la autoestima y la empatía.",
+      "sextil": "Sol y Venus en sextil te otorgan creatividad y simpatía natural. Sabes disfrutar de los placeres simples."
+    },
+    "marte": {
+      "conjunción": "En tu carta, Sol y Marte en conjunción te dan energía, vitalidad y espíritu de iniciativa. Tienes gran capacidad de acción, pero cuida la impulsividad.",
+      "oposición": "Sol y Marte en oposición pueden mostrar tendencia a la confrontación o a actuar en contra de tus propios intereses. Aprende a canalizar tu energía.",
+      "trígono": "Sol y Marte en trígono te otorgan fuerza de voluntad y capacidad para lograr tus objetivos con entusiasmo.",
+      "cuadratura": "Sol y Marte en cuadratura pueden traer luchas internas, impaciencia o agresividad. El reto es controlar el impulso.",
+      "sextil": "Sol y Marte en sextil te dan iniciativa y dinamismo bien canalizados. Sabes cuándo actuar y cuándo esperar."
+    },
+    "jupiter": {
+      "conjunción": "En tu carta, Sol y Júpiter en conjunción te dan optimismo, generosidad y confianza en ti mismo. Tienes facilidad para expandirte y crecer.",
+      "oposición": "Sol y Júpiter en oposición pueden mostrar tendencia a los excesos o a la arrogancia. Busca el equilibrio y la humildad.",
+      "trígono": "Sol y Júpiter en trígono te otorgan suerte y expansión personal. Aprovecha las oportunidades que la vida te ofrece.",
+      "cuadratura": "Sol y Júpiter en cuadratura pueden indicar exceso de confianza o promesas incumplidas. Sé realista con tus metas.",
+      "sextil": "Sol y Júpiter en sextil te dan entusiasmo y visión positiva de la vida. Inspiras a quienes te rodean."
+    },
+    "saturno": {
+      "conjunción": "En tu carta, Sol y Saturno en conjunción te dan sentido del deber, madurez y responsabilidad. Puedes ser exigente contigo mismo, pero tienes gran capacidad de logro.",
+      "oposición": "Sol y Saturno en oposición pueden mostrar conflictos entre libertad y responsabilidad. Trabaja la autovaloración y la confianza.",
+      "trígono": "Sol y Saturno en trígono te otorgan perseverancia y capacidad para lograr metas a largo plazo.",
+      "cuadratura": "Sol y Saturno en cuadratura pueden traer bloqueos o inseguridades que desafían tu identidad. Aprende a confiar en ti.",
+      "sextil": "Sol y Saturno en sextil te dan madurez y capacidad para estructurar tu vida con sabiduría."
+    },
+    "urano": {
+      "conjunción": "En tu carta, Sol y Urano en conjunción te dan originalidad, independencia y deseo de libertad. Buscas ser auténtico y diferente.",
+      "oposición": "Sol y Urano en oposición pueden mostrar tensión entre tu individualidad y la necesidad de pertenecer. Aprende a equilibrar tu libertad con el compromiso.",
+      "trígono": "Sol y Urano en trígono te otorgan creatividad e intuición para innovar en tu vida.",
+      "cuadratura": "Sol y Urano en cuadratura pueden traer rebeldía, cambios bruscos o dificultad para adaptarte a lo convencional.",
+      "sextil": "Sol y Urano en sextil te dan facilidad para adaptarte a los cambios y aprovechar oportunidades inesperadas."
+    },
+    "neptuno": {
+      "conjunción": "En tu carta, Sol y Neptuno en conjunción te dan sensibilidad, intuición y una fuerte vida interior. Puedes sentirte atraído por lo espiritual o artístico.",
+      "oposición": "Sol y Neptuno en oposición pueden mostrar confusión sobre tu identidad o tendencia a idealizar a los demás. Trabaja la claridad y el autoconocimiento.",
+      "trígono": "Sol y Neptuno en trígono te otorgan inspiración y empatía. Sabes conectar con los sueños y emociones de otros.",
+      "cuadratura": "Sol y Neptuno en cuadratura pueden traer tendencia a la evasión o a la falta de límites. Aprende a mantener los pies en la tierra.",
+      "sextil": "Sol y Neptuno en sextil te dan imaginación y capacidad para inspirar a los demás."
+    },
+    "pluton": {
+      "conjunción": "En tu carta, Sol y Plutón en conjunción te otorgan intensidad, poder personal y capacidad de transformación. Puedes vivir grandes cambios a lo largo de tu vida.",
+      "oposición": "Sol y Plutón en oposición pueden mostrar luchas de poder o crisis de identidad. Aprende a soltar el control y confiar en tu proceso.",
+      "trígono": "Sol y Plutón en trígono te dan fuerza interior y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Sol y Plutón en cuadratura pueden traer desafíos profundos o tendencia a la autocrítica. El reto es transformar las crisis en oportunidades.",
+      "sextil": "Sol y Plutón en sextil te otorgan capacidad para influir positivamente en tu entorno y transformar tu vida."
+    }
+  },
+  "luna": {
+    "sol": {
+      "conjunción": "En tu carta, Luna y Sol en conjunción te otorgan una gran coherencia entre lo que sientes y lo que expresas. Tu identidad y tus emociones trabajan en armonía, facilitando la autoaceptación.",
+      "oposición": "Luna y Sol en oposición en tu carta pueden generar una tensión interna entre lo que quieres y lo que sientes. Es posible que vivas conflictos entre tu voluntad y tus emociones, pero también tienes la oportunidad de integrar ambas fuerzas.",
+      "trígono": "Luna y Sol en trígono te brindan facilidad para integrar tu mundo emocional con tu identidad. Expresas lo que sientes de manera natural y auténtica.",
+      "cuadratura": "Luna y Sol en cuadratura te desafían a equilibrar tus deseos y tus emociones. Aprendes a integrar tus contradicciones y a crecer a través de ellas.",
+      "sextil": "Luna y Sol en sextil en tu carta indican buena comunicación entre tu parte consciente y tu mundo emocional. Sabes aprovechar tus recursos internos para avanzar en la vida."
+    },
+    "mercurio": {
+      "conjunción": "En tu carta, Luna y Mercurio en conjunción te dan una mente emocional y facilidad para comunicar tus sentimientos. Tu intuición es fuerte y sabes poner palabras a lo que sientes.",
+      "oposición": "Luna y Mercurio en oposición pueden mostrar dificultad para expresar lo que sientes o para entender tus emociones. El reto es encontrar el equilibrio entre razón y sentimiento.",
+      "trígono": "Luna y Mercurio en trígono te otorgan intuición y comunicación empática. Sabes escuchar y comprender a los demás.",
+      "cuadratura": "Luna y Mercurio en cuadratura pueden indicar confusión emocional o contradicción entre razón y sentimiento. Aprende a confiar en tu intuición.",
+      "sextil": "Luna y Mercurio en sextil te dan buena memoria y capacidad para aprender de tus emociones."
+    },
+    "venus": {
+      "conjunción": "En tu carta, Luna y Venus en conjunción te dan gran sensibilidad y necesidad de afecto. Buscas armonía en tus relaciones y en tu entorno.",
+      "oposición": "Luna y Venus en oposición pueden mostrar dificultad para equilibrar tus necesidades emocionales y afectivas. Aprende a no depender del reconocimiento externo.",
+      "trígono": "Luna y Venus en trígono te facilitan expresar cariño y empatía. Tus relaciones afectivas son armoniosas.",
+      "cuadratura": "Luna y Venus en cuadratura pueden traer insatisfacción emocional o tendencia a idealizar el amor. Trabaja la autoestima.",
+      "sextil": "Luna y Venus en sextil te otorgan buena disposición para el afecto y la cooperación emocional."
+    },
+    "marte": {
+      "conjunción": "En tu carta, Luna y Marte en conjunción te dan emociones intensas y reactivas. Puedes ser muy apasionado, pero también impulsivo emocionalmente.",
+      "oposición": "Luna y Marte en oposición pueden mostrar tendencia a reacciones emocionales fuertes ante la frustración. Trabaja la paciencia y la empatía.",
+      "trígono": "Luna y Marte en trígono te otorgan facilidad para expresar tus emociones con energía y decisión.",
+      "cuadratura": "Luna y Marte en cuadratura pueden traer conflictos entre lo que sientes y cómo actúas. El reto es no dejarte llevar por la irritabilidad.",
+      "sextil": "Luna y Marte en sextil te dan emociones y acciones en sintonía. Sabes defender lo que sientes."
+    },
+    "jupiter": {
+      "conjunción": "En tu carta, Luna y Júpiter en conjunción te dan optimismo emocional, generosidad y alegría de vivir. Disfrutas compartir tus emociones.",
+      "oposición": "Luna y Júpiter en oposición pueden mostrar tendencia a los excesos emocionales o a la dispersión. Aprende a poner límites a tus sentimientos.",
+      "trígono": "Luna y Júpiter en trígono te otorgan facilidad para disfrutar y compartir emociones positivas.",
+      "cuadratura": "Luna y Júpiter en cuadratura pueden indicar emociones exageradas o falta de límites. Trabaja la moderación.",
+      "sextil": "Luna y Júpiter en sextil te dan buen humor y capacidad para animar a los demás."
+    },
+    "saturno": {
+      "conjunción": "En tu carta, Luna y Saturno en conjunción te dan control emocional, madurez y tendencia a la reserva afectiva. Puedes ser muy protector con tus seres queridos.",
+      "oposición": "Luna y Saturno en oposición pueden mostrar dificultad para expresar emociones o miedo al rechazo. Trabaja la confianza en tus sentimientos.",
+      "trígono": "Luna y Saturno en trígono te otorgan estabilidad emocional y capacidad para sostener a otros.",
+      "cuadratura": "Luna y Saturno en cuadratura pueden traer bloqueos emocionales o tendencia a la tristeza. Aprende a pedir ayuda cuando la necesites.",
+      "sextil": "Luna y Saturno en sextil te dan madurez emocional y capacidad para cuidar a los demás."
+    },
+    "urano": {
+      "conjunción": "En tu carta, Luna y Urano en conjunción te dan emociones cambiantes y una fuerte necesidad de libertad emocional. Puedes sorprender a los demás con tus reacciones.",
+      "oposición": "Luna y Urano en oposición pueden mostrar tensión entre tu necesidad de seguridad y tu deseo de independencia. Aprende a equilibrar lo nuevo con lo familiar.",
+      "trígono": "Luna y Urano en trígono te otorgan creatividad emocional y facilidad para adaptarte a los cambios.",
+      "cuadratura": "Luna y Urano en cuadratura pueden traer inestabilidad emocional o dificultad para comprometerte.",
+      "sextil": "Luna y Urano en sextil te dan intuición y capacidad para conectar con personas diferentes."
+    },
+    "neptuno": {
+      "conjunción": "En tu carta, Luna y Neptuno en conjunción te dan una sensibilidad extrema y una rica vida interior. Puedes captar el ambiente emocional de los demás.",
+      "oposición": "Luna y Neptuno en oposición pueden mostrar confusión emocional o tendencia a idealizar a los demás. Trabaja la claridad y los límites.",
+      "trígono": "Luna y Neptuno en trígono te otorgan empatía, compasión y facilidad para soñar.",
+      "cuadratura": "Luna y Neptuno en cuadratura pueden traer tendencia a la evasión o a la falta de realismo emocional.",
+      "sextil": "Luna y Neptuno en sextil te dan imaginación y capacidad para inspirar a quienes te rodean."
+    },
+    "pluton": {
+      "conjunción": "En tu carta, Luna y Plutón en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Luna y Plutón en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Luna y Plutón en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Luna y Plutón en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Luna y Plutón en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    }
+  },
+  "mercurio": {
+    "sol": {
+      "conjunción": "En tu carta, Mercurio y Sol en conjunción te dan una mente e identidad alineadas. Tienes facilidad para comunicar lo que piensas y sientes.",
+      "oposición": "Mercurio y Sol en oposición pueden mostrar contradicciones entre pensamiento y acción. El reto es encontrar coherencia interna.",
+      "trígono": "Mercurio y Sol en trígono te otorgan claridad mental y expresión auténtica.",
+      "cuadratura": "Mercurio y Sol en cuadratura pueden indicar dispersión o contradicción interna. Aprende a integrar tus ideas con tu voluntad.",
+      "sextil": "Mercurio y Sol en sextil te dan buena capacidad para aprender y comunicar tus ideas propias."
+    },
+    "luna": {
+      "conjunción": "En tu carta, Mercurio y Luna en conjunción te dan una mente emocional y facilidad para comunicar tus sentimientos. Tu intuición es fuerte y sabes poner palabras a lo que sientes.",
+      "oposición": "Mercurio y Luna en oposición pueden mostrar dificultad para expresar lo que sientes o para entender tus emociones. El reto es encontrar el equilibrio entre razón y sentimiento.",
+      "trígono": "Mercurio y Luna en trígono te otorgan intuición y comunicación empática. Sabes escuchar y comprender a los demás.",
+      "cuadratura": "Mercurio y Luna en cuadratura pueden indicar confusión emocional o contradicción entre razón y sentimiento. Aprende a confiar en tu intuición.",
+      "sextil": "Mercurio y Luna en sextil te dan buena memoria y capacidad para aprender de tus emociones."
+    },
+    "venus": {
+      "conjunción": "En tu carta, Mercurio y Venus en conjunción te dan una mente creativa y diplomática. Tienes facilidad para el arte y la comunicación afectiva.",
+      "oposición": "Mercurio y Venus en oposición pueden mostrar contradicciones entre razón y sentimiento en el amor. Aprende a escuchar tanto a tu mente como a tu corazón.",
+      "trígono": "Mercurio y Venus en trígono te otorgan facilidad para expresar ideas con encanto y persuasión.",
+      "cuadratura": "Mercurio y Venus en cuadratura pueden traer malentendidos afectivos o indecisión. Trabaja la claridad en tus relaciones.",
+      "sextil": "Mercurio y Venus en sextil te dan buena comunicación en las relaciones y creatividad mental."
+    },
+    "marte": {
+      "conjunción": "En tu carta, Mercurio y Marte en conjunción te dan una mente rápida y directa, con tendencia a la discusión o al debate. Sabes defender tus ideas.",
+      "oposición": "Mercurio y Marte en oposición pueden mostrar tendencia a la confrontación verbal o a la impaciencia mental. Aprende a escuchar antes de responder.",
+      "trígono": "Mercurio y Marte en trígono te otorgan agilidad mental y capacidad para tomar decisiones rápidas.",
+      "cuadratura": "Mercurio y Marte en cuadratura pueden traer discusiones, impulsividad o dificultad para escuchar.",
+      "sextil": "Mercurio y Marte en sextil te dan mente activa y capacidad para defender tus ideas."
+    },
+    "jupiter": {
+      "conjunción": "En tu carta, Mercurio y Júpiter en conjunción te dan visión amplia, facilidad para aprender y enseñar. Disfrutas compartir tus ideas.",
+      "oposición": "Mercurio y Júpiter en oposición pueden mostrar tendencia a la dispersión mental o a prometer más de lo que puedes cumplir.",
+      "trígono": "Mercurio y Júpiter en trígono te otorgan facilidad para comunicar ideas grandes y optimistas.",
+      "cuadratura": "Mercurio y Júpiter en cuadratura pueden indicar exceso de ideas o dificultad para concretar.",
+      "sextil": "Mercurio y Júpiter en sextil te dan mente abierta y curiosa, buena capacidad de aprendizaje."
+    },
+    "saturno": {
+      "conjunción": "En tu carta, Mercurio y Saturno en conjunción te dan una mente estructurada, lógica y capacidad de concentración. Eres buen planificador.",
+      "oposición": "Mercurio y Saturno en oposición pueden mostrar tendencia a la rigidez mental o a la negatividad. Trabaja la flexibilidad.",
+      "trígono": "Mercurio y Saturno en trígono te otorgan pensamiento profundo y capacidad para planificar a largo plazo.",
+      "cuadratura": "Mercurio y Saturno en cuadratura pueden traer bloqueos mentales o dificultad para expresarte.",
+      "sextil": "Mercurio y Saturno en sextil te dan mente práctica y capacidad para organizar ideas."
+    },
+    "urano": {
+      "conjunción": "En tu carta, Mercurio y Urano en conjunción te dan una mente original, rápida y abierta a nuevas ideas. Puedes tener ideas brillantes e inesperadas.",
+      "oposición": "Mercurio y Urano en oposición pueden mostrar tensión entre el pensamiento convencional y el deseo de innovar. Aprende a equilibrar lo nuevo con lo útil.",
+      "trígono": "Mercurio y Urano en trígono te otorgan creatividad mental y facilidad para adaptarte a los cambios.",
+      "cuadratura": "Mercurio y Urano en cuadratura pueden traer nerviosismo, dispersión o dificultad para concentrarte.",
+      "sextil": "Mercurio y Urano en sextil te dan intuición y capacidad para comunicar ideas originales."
+    },
+    "neptuno": {
+      "conjunción": "En tu carta, Mercurio y Neptuno en conjunción te dan una mente imaginativa, intuitiva y sensible. Puedes captar lo que otros no ven.",
+      "oposición": "Mercurio y Neptuno en oposición pueden mostrar confusión mental o tendencia a la fantasía. Trabaja la claridad y la objetividad.",
+      "trígono": "Mercurio y Neptuno en trígono te otorgan inspiración y facilidad para comunicarte de manera creativa.",
+      "cuadratura": "Mercurio y Neptuno en cuadratura pueden traer tendencia a la evasión o a la falta de concentración.",
+      "sextil": "Mercurio y Neptuno en sextil te dan imaginación y capacidad para inspirar a los demás con tus palabras."
+    },
+    "pluton": {
+      "conjunción": "En tu carta, Mercurio y Plutón en conjunción te otorgan una mente profunda y capacidad para transformar tus ideas. Puedes sentir una gran intensidad en tu forma de comunicar y analizar.",
+      "oposición": "Mercurio y Plutón en oposición pueden llevarte a cuestionar tus pensamientos o a vivir luchas internas entre razón y obsesión.",
+      "trígono": "Mercurio y Plutón en trígono te dan facilidad para investigar, descubrir verdades ocultas y transformar tu entorno a través de la palabra.",
+      "cuadratura": "Mercurio y Plutón en cuadratura pueden generar pensamientos obsesivos o tendencia a la confrontación verbal. El reto es canalizar esa energía de forma constructiva.",
+      "sextil": "Mercurio y Plutón en sextil te brindan intuición y capacidad para influir positivamente en los demás con tus ideas."
+    }
+  },
+  "venus": {
+    "sol": {
+      "conjunción": "En tu carta, Venus y Sol en conjunción te dan encanto personal, creatividad y búsqueda de armonía. Tu presencia es atractiva y disfrutas de la belleza.",
+      "oposición": "Venus y Sol en oposición pueden mostrar dificultad para equilibrar tu deseo personal y tus relaciones. Aprende a armonizar tu individualidad con el amor.",
+      "trígono": "Venus y Sol en trígono te facilitan atraer afecto y disfrutar de la vida con alegría.",
+      "cuadratura": "Venus y Sol en cuadratura pueden traer tensiones entre el amor propio y el amor a los demás. Trabaja la autoestima y la empatía.",
+      "sextil": "Venus y Sol en sextil te otorgan creatividad y simpatía natural. Sabes disfrutar de los placeres simples."
+    },
+    "luna": {
+      "conjunción": "En tu carta, Venus y Luna en conjunción te dan gran sensibilidad y necesidad de afecto. Buscas armonía en tus relaciones y en tu entorno.",
+      "oposición": "Venus y Luna en oposición pueden mostrar dificultad para equilibrar tus necesidades emocionales y afectivas. Aprende a no depender del reconocimiento externo.",
+      "trígono": "Venus y Luna en trígono te facilitan expresar cariño y empatía. Tus relaciones afectivas son armoniosas.",
+      "cuadratura": "Venus y Luna en cuadratura pueden traer insatisfacción emocional o tendencia a idealizar el amor. Trabaja la autoestima.",
+      "sextil": "Venus y Luna en sextil te otorgan buena disposición para el afecto y la cooperación emocional."
+    },
+    "mercurio": {
+      "conjunción": "En tu carta, Venus y Mercurio en conjunción te dan una mente creativa y diplomática. Tienes facilidad para el arte y la comunicación afectiva.",
+      "oposición": "Venus y Mercurio en oposición pueden mostrar contradicciones entre razón y sentimiento en el amor. Aprende a escuchar tanto a tu mente como a tu corazón.",
+      "trígono": "Venus y Mercurio en trígono te otorgan facilidad para expresar ideas con encanto y persuasión.",
+      "cuadratura": "Venus y Mercurio en cuadratura pueden traer malentendidos afectivos o indecisión. Trabaja la claridad en tus relaciones.",
+      "sextil": "Venus y Mercurio en sextil te dan buena comunicación en las relaciones y creatividad mental."
+    },
+    "marte": {
+      "conjunción": "En tu carta, Venus y Marte en conjunción te dan gran sensibilidad y necesidad de afecto. Buscas armonía en tus relaciones y en tu entorno.",
+      "oposición": "Venus y Marte en oposición pueden mostrar dificultad para equilibrar tus necesidades emocionales y afectivas. Aprende a no depender del reconocimiento externo.",
+      "trígono": "Venus y Marte en trígono te facilitan expresar cariño y empatía. Tus relaciones afectivas son armoniosas.",
+      "cuadratura": "Venus y Marte en cuadratura pueden traer insatisfacción emocional o tendencia a idealizar el amor. Trabaja la autoestima.",
+      "sextil": "Venus y Marte en sextil te otorgan buena disposición para el afecto y la cooperación emocional."
+    },
+    "jupiter": {
+      "conjunción": "En tu carta, Venus y Júpiter en conjunción te dan optimismo emocional, generosidad y alegría de vivir. Disfrutas compartir tus emociones.",
+      "oposición": "Venus y Júpiter en oposición pueden mostrar tendencia a los excesos emocionales o a la dispersión. Aprende a poner límites a tus sentimientos.",
+      "trígono": "Venus y Júpiter en trígono te otorgan facilidad para disfrutar y compartir emociones positivas.",
+      "cuadratura": "Venus y Júpiter en cuadratura pueden indicar emociones exageradas o falta de límites. Trabaja la moderación.",
+      "sextil": "Venus y Júpiter en sextil te dan buen humor y capacidad para animar a los demás."
+    },
+    "saturno": {
+      "conjunción": "En tu carta, Venus y Saturno en conjunción te dan control emocional, madurez y tendencia a la reserva afectiva. Puedes ser muy protector con tus seres queridos.",
+      "oposición": "Venus y Saturno en oposición pueden mostrar dificultad para expresar emociones o miedo al rechazo. Trabaja la confianza en tus sentimientos.",
+      "trígono": "Venus y Saturno en trígono te otorgan estabilidad emocional y capacidad para sostener a otros.",
+      "cuadratura": "Venus y Saturno en cuadratura pueden traer bloqueos emocionales o tendencia a la tristeza. Aprende a pedir ayuda cuando la necesites.",
+      "sextil": "Venus y Saturno en sextil te dan madurez emocional y capacidad para cuidar a los demás."
+    },
+    "urano": {
+      "conjunción": "En tu carta, Venus y Urano en conjunción te dan emociones cambiantes y una fuerte necesidad de libertad emocional. Puedes sorprender a los demás con tus reacciones.",
+      "oposición": "Venus y Urano en oposición pueden mostrar tensión entre tu necesidad de seguridad y tu deseo de independencia. Aprende a equilibrar lo nuevo con lo familiar.",
+      "trígono": "Venus y Urano en trígono te otorgan creatividad emocional y facilidad para adaptarte a los cambios.",
+      "cuadratura": "Venus y Urano en cuadratura pueden traer inestabilidad emocional o dificultad para comprometerte.",
+      "sextil": "Venus y Urano en sextil te dan intuición y capacidad para conectar con personas diferentes."
+    },
+    "neptuno": {
+      "conjunción": "En tu carta, Venus y Neptuno en conjunción te dan una sensibilidad extrema y una rica vida interior. Puedes captar el ambiente emocional de los demás.",
+      "oposición": "Venus y Neptuno en oposición pueden mostrar confusión emocional o tendencia a idealizar a los demás. Trabaja la claridad y los límites.",
+      "trígono": "Venus y Neptuno en trígono te otorgan empatía, compasión y facilidad para soñar.",
+      "cuadratura": "Venus y Neptuno en cuadratura pueden traer tendencia a la evasión o a la falta de realismo emocional.",
+      "sextil": "Venus y Neptuno en sextil te dan imaginación y capacidad para inspirar a quienes te rodean."
+    },
+    "pluton": {
+      "conjunción": "En tu carta, Venus y Plutón en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Venus y Plutón en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Venus y Plutón en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Venus y Plutón en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Venus y Plutón en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    }
+  },
+  "marte": {
+    "sol": {
+      "conjunción": "En tu carta, Marte y Sol en conjunción te dan energía, vitalidad y espíritu de iniciativa. Tienes gran capacidad de acción, pero cuida la impulsividad.",
+      "oposición": "Marte y Sol en oposición pueden mostrar tendencia a la confrontación o a actuar en contra de tus propios intereses. Aprende a canalizar tu energía.",
+      "trígono": "Marte y Sol en trígono te otorgan fuerza de voluntad y capacidad para lograr tus objetivos con entusiasmo.",
+      "cuadratura": "Marte y Sol en cuadratura pueden traer luchas internas, impaciencia o agresividad. El reto es controlar el impulso.",
+      "sextil": "Marte y Sol en sextil te dan iniciativa y dinamismo bien canalizados. Sabes cuándo actuar y cuándo esperar."
+    },
+    "luna": {
+      "conjunción": "En tu carta, Marte y Luna en conjunción te dan emociones intensas y reactivas. Puedes ser muy apasionado, pero también impulsivo emocionalmente.",
+      "oposición": "Marte y Luna en oposición pueden mostrar tendencia a reacciones emocionales fuertes ante la frustración. Trabaja la paciencia y la empatía.",
+      "trígono": "Marte y Luna en trígono te otorgan facilidad para expresar tus emociones con energía y decisión.",
+      "cuadratura": "Marte y Luna en cuadratura pueden traer conflictos entre lo que sientes y cómo actúas. El reto es no dejarte llevar por la irritabilidad.",
+      "sextil": "Marte y Luna en sextil te dan emociones y acciones en sintonía. Sabes defender lo que sientes."
+    },
+    "mercurio": {
+      "conjunción": "En tu carta, Marte y Mercurio en conjunción te dan una mente rápida y directa, con tendencia a la discusión o al debate. Sabes defender tus ideas.",
+      "oposición": "Marte y Mercurio en oposición pueden mostrar tendencia a la confrontación verbal o a la impaciencia mental. Aprende a escuchar antes de responder.",
+      "trígono": "Marte y Mercurio en trígono te otorgan agilidad mental y capacidad para tomar decisiones rápidas.",
+      "cuadratura": "Marte y Mercurio en cuadratura pueden traer discusiones, impulsividad o dificultad para escuchar.",
+      "sextil": "Marte y Mercurio en sextil te dan mente activa y capacidad para defender tus ideas."
+    },
+    "venus": {
+      "conjunción": "En tu carta, Marte y Venus en conjunción te dan gran sensibilidad y necesidad de afecto. Buscas armonía en tus relaciones y en tu entorno.",
+      "oposición": "Marte y Venus en oposición pueden mostrar dificultad para equilibrar tus necesidades emocionales y afectivas. Aprende a no depender del reconocimiento externo.",
+      "trígono": "Marte y Venus en trígono te facilitan expresar cariño y empatía. Tus relaciones afectivas son armoniosas.",
+      "cuadratura": "Marte y Venus en cuadratura pueden traer insatisfacción emocional o tendencia a idealizar el amor. Trabaja la autoestima.",
+      "sextil": "Marte y Venus en sextil te otorgan buena disposición para el afecto y la cooperación emocional."
+    },
+    "jupiter": {
+      "conjunción": "En tu carta, Marte y Júpiter en conjunción te dan optimismo emocional, generosidad y alegría de vivir. Disfrutas compartir tus emociones.",
+      "oposición": "Marte y Júpiter en oposición pueden mostrar tendencia a los excesos emocionales o a la dispersión. Aprende a poner límites a tus sentimientos.",
+      "trígono": "Marte y Júpiter en trígono te otorgan facilidad para disfrutar y compartir emociones positivas.",
+      "cuadratura": "Marte y Júpiter en cuadratura pueden indicar emociones exageradas o falta de límites. Trabaja la moderación.",
+      "sextil": "Marte y Júpiter en sextil te dan buen humor y capacidad para animar a los demás."
+    },
+    "saturno": {
+      "conjunción": "En tu carta, Marte y Saturno en conjunción te dan control emocional, madurez y tendencia a la reserva afectiva. Puedes ser muy protector con tus seres queridos.",
+      "oposición": "Marte y Saturno en oposición pueden mostrar dificultad para expresar emociones o miedo al rechazo. Trabaja la confianza en tus sentimientos.",
+      "trígono": "Marte y Saturno en trígono te otorgan estabilidad emocional y capacidad para sostener a otros.",
+      "cuadratura": "Marte y Saturno en cuadratura pueden traer bloqueos emocionales o tendencia a la tristeza. Aprende a pedir ayuda cuando la necesites.",
+      "sextil": "Marte y Saturno en sextil te dan madurez emocional y capacidad para cuidar a los demás."
+    },
+    "urano": {
+      "conjunción": "En tu carta, Marte y Urano en conjunción te dan emociones cambiantes y una fuerte necesidad de libertad emocional. Puedes sorprender a los demás con tus reacciones.",
+      "oposición": "Marte y Urano en oposición pueden mostrar tensión entre tu necesidad de seguridad y tu deseo de independencia. Aprende a equilibrar lo nuevo con lo familiar.",
+      "trígono": "Marte y Urano en trígono te otorgan creatividad emocional y facilidad para adaptarte a los cambios.",
+      "cuadratura": "Marte y Urano en cuadratura pueden traer inestabilidad emocional o dificultad para comprometerte.",
+      "sextil": "Marte y Urano en sextil te dan intuición y capacidad para conectar con personas diferentes."
+    },
+    "neptuno": {
+      "conjunción": "En tu carta, Marte y Neptuno en conjunción te dan una sensibilidad extrema y una rica vida interior. Puedes captar el ambiente emocional de los demás.",
+      "oposición": "Marte y Neptuno en oposición pueden mostrar confusión emocional o tendencia a idealizar a los demás. Trabaja la claridad y los límites.",
+      "trígono": "Marte y Neptuno en trígono te otorgan empatía, compasión y facilidad para soñar.",
+      "cuadratura": "Marte y Neptuno en cuadratura pueden traer tendencia a la evasión o a la falta de realismo emocional.",
+      "sextil": "Marte y Neptuno en sextil te dan imaginación y capacidad para inspirar a quienes te rodean."
+    },
+    "pluton": {
+      "conjunción": "En tu carta, Marte y Plutón en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Marte y Plutón en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Marte y Plutón en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Marte y Plutón en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Marte y Plutón en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    }
+  },
+  "jupiter": {
+    "sol": {
+      "conjunción": "En tu carta, Júpiter y Sol en conjunción te dan optimismo, generosidad y confianza en ti mismo. Tienes facilidad para expandirte y crecer.",
+      "oposición": "Júpiter y Sol en oposición pueden mostrar tendencia a los excesos o a la arrogancia. Busca el equilibrio y la humildad.",
+      "trígono": "Júpiter y Sol en trígono te otorgan suerte y expansión personal. Aprovecha las oportunidades que la vida te ofrece.",
+      "cuadratura": "Júpiter y Sol en cuadratura pueden indicar exceso de confianza o promesas incumplidas. Sé realista con tus metas.",
+      "sextil": "Júpiter y Sol en sextil te dan entusiasmo y visión positiva de la vida. Inspiras a quienes te rodean."
+    },
+    "luna": {
+      "conjunción": "En tu carta, Júpiter y Luna en conjunción te dan optimismo emocional, generosidad y alegría de vivir. Disfrutas compartir tus emociones.",
+      "oposición": "Júpiter y Luna en oposición pueden mostrar tendencia a los excesos emocionales o a la dispersión. Aprende a poner límites a tus sentimientos.",
+      "trígono": "Júpiter y Luna en trígono te otorgan facilidad para disfrutar y compartir emociones positivas.",
+      "cuadratura": "Júpiter y Luna en cuadratura pueden indicar emociones exageradas o falta de límites. Trabaja la moderación.",
+      "sextil": "Júpiter y Luna en sextil te dan buen humor y capacidad para animar a los demás."
+    },
+    "mercurio": {
+      "conjunción": "En tu carta, Júpiter y Mercurio en conjunción te dan visión amplia, facilidad para aprender y enseñar. Disfrutas compartir tus ideas.",
+      "oposición": "Júpiter y Mercurio en oposición pueden mostrar tendencia a la dispersión mental o a prometer más de lo que puedes cumplir.",
+      "trígono": "Júpiter y Mercurio en trígono te otorgan facilidad para comunicar ideas grandes y optimistas.",
+      "cuadratura": "Júpiter y Mercurio en cuadratura pueden indicar exceso de ideas o dificultad para concretar.",
+      "sextil": "Júpiter y Mercurio en sextil te dan mente abierta y curiosa, buena capacidad de aprendizaje."
+    },
+    "venus": {
+      "conjunción": "En tu carta, Júpiter y Venus en conjunción te dan optimismo emocional, generosidad y alegría de vivir. Disfrutas compartir tus emociones.",
+      "oposición": "Júpiter y Venus en oposición pueden mostrar tendencia a los excesos emocionales o a la dispersión. Aprende a poner límites a tus sentimientos.",
+      "trígono": "Júpiter y Venus en trígono te otorgan facilidad para disfrutar y compartir emociones positivas.",
+      "cuadratura": "Júpiter y Venus en cuadratura pueden indicar emociones exageradas o falta de límites. Trabaja la moderación.",
+      "sextil": "Júpiter y Venus en sextil te dan buen humor y capacidad para animar a los demás."
+    },
+    "marte": {
+      "conjunción": "En tu carta, Júpiter y Marte en conjunción te dan optimismo emocional, generosidad y alegría de vivir. Disfrutas compartir tus emociones.",
+      "oposición": "Júpiter y Marte en oposición pueden mostrar tendencia a los excesos emocionales o a la dispersión. Aprende a poner límites a tus sentimientos.",
+      "trígono": "Júpiter y Marte en trígono te otorgan facilidad para disfrutar y compartir emociones positivas.",
+      "cuadratura": "Júpiter y Marte en cuadratura pueden indicar emociones exageradas o falta de límites. Trabaja la moderación.",
+      "sextil": "Júpiter y Marte en sextil te dan buen humor y capacidad para animar a los demás."
+    },
+    "saturno": {
+      "conjunción": "En tu carta, Júpiter y Saturno en conjunción te dan control emocional, madurez y tendencia a la reserva afectiva. Puedes ser muy protector con tus seres queridos.",
+      "oposición": "Júpiter y Saturno en oposición pueden mostrar dificultad para expresar emociones o miedo al rechazo. Trabaja la confianza en tus sentimientos.",
+      "trígono": "Júpiter y Saturno en trígono te otorgan estabilidad emocional y capacidad para sostener a otros.",
+      "cuadratura": "Júpiter y Saturno en cuadratura pueden traer bloqueos emocionales o tendencia a la tristeza. Aprende a pedir ayuda cuando la necesites.",
+      "sextil": "Júpiter y Saturno en sextil te dan madurez emocional y capacidad para cuidar a los demás."
+    },
+    "urano": {
+      "conjunción": "En tu carta, Júpiter y Urano en conjunción te dan emociones cambiantes y una fuerte necesidad de libertad emocional. Puedes sorprender a los demás con tus reacciones.",
+      "oposición": "Júpiter y Urano en oposición pueden mostrar tensión entre tu necesidad de seguridad y tu deseo de independencia. Aprende a equilibrar lo nuevo con lo familiar.",
+      "trígono": "Júpiter y Urano en trígono te otorgan creatividad emocional y facilidad para adaptarte a los cambios.",
+      "cuadratura": "Júpiter y Urano en cuadratura pueden traer inestabilidad emocional o dificultad para comprometerte.",
+      "sextil": "Júpiter y Urano en sextil te dan intuición y capacidad para conectar con personas diferentes."
+    },
+    "neptuno": {
+      "conjunción": "En tu carta, Júpiter y Neptuno en conjunción te dan una sensibilidad extrema y una rica vida interior. Puedes captar el ambiente emocional de los demás.",
+      "oposición": "Júpiter y Neptuno en oposición pueden mostrar confusión emocional o tendencia a idealizar a los demás. Trabaja la claridad y los límites.",
+      "trígono": "Júpiter y Neptuno en trígono te otorgan empatía, compasión y facilidad para soñar.",
+      "cuadratura": "Júpiter y Neptuno en cuadratura pueden traer tendencia a la evasión o a la falta de realismo emocional.",
+      "sextil": "Júpiter y Neptuno en sextil te dan imaginación y capacidad para inspirar a quienes te rodean."
+    },
+    "pluton": {
+      "conjunción": "En tu carta, Júpiter y Plutón en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Júpiter y Plutón en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Júpiter y Plutón en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Júpiter y Plutón en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Júpiter y Plutón en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    }
+  },
+  "saturno": {
+    "sol": {
+      "conjunción": "En tu carta, Saturno y Sol en conjunción te dan sentido del deber, madurez y responsabilidad. Puedes ser exigente contigo mismo, pero tienes gran capacidad de logro.",
+      "oposición": "Saturno y Sol en oposición pueden mostrar conflictos entre libertad y responsabilidad. Trabaja la autovaloración y la confianza.",
+      "trígono": "Saturno y Sol en trígono te otorgan perseverancia y capacidad para lograr metas a largo plazo.",
+      "cuadratura": "Saturno y Sol en cuadratura pueden traer bloqueos o inseguridades que desafían tu identidad. Aprende a confiar en ti.",
+      "sextil": "Saturno y Sol en sextil te dan madurez y capacidad para estructurar tu vida con sabiduría."
+    },
+    "luna": {
+      "conjunción": "En tu carta, Saturno y Luna en conjunción te dan control emocional, madurez y tendencia a la reserva afectiva. Puedes ser muy protector con tus seres queridos.",
+      "oposición": "Saturno y Luna en oposición pueden mostrar dificultad para expresar emociones o miedo al rechazo. Trabaja la confianza en tus sentimientos.",
+      "trígono": "Saturno y Luna en trígono te otorgan estabilidad emocional y capacidad para sostener a otros.",
+      "cuadratura": "Saturno y Luna en cuadratura pueden traer bloqueos emocionales o tendencia a la tristeza. Aprende a pedir ayuda cuando la necesites.",
+      "sextil": "Saturno y Luna en sextil te dan madurez emocional y capacidad para cuidar a los demás."
+    },
+    "mercurio": {
+      "conjunción": "En tu carta, Saturno y Mercurio en conjunción te dan una mente estructurada, lógica y capacidad de concentración. Eres buen planificador.",
+      "oposición": "Saturno y Mercurio en oposición pueden mostrar tendencia a la rigidez mental o a la negatividad. Trabaja la flexibilidad.",
+      "trígono": "Saturno y Mercurio en trígono te otorgan pensamiento profundo y capacidad para planificar a largo plazo.",
+      "cuadratura": "Saturno y Mercurio en cuadratura pueden traer bloqueos mentales o dificultad para expresarte.",
+      "sextil": "Saturno y Mercurio en sextil te dan mente práctica y capacidad para organizar ideas."
+    },
+    "venus": {
+      "conjunción": "En tu carta, Saturno y Venus en conjunción te dan control emocional, madurez y tendencia a la reserva afectiva. Puedes ser muy protector con tus seres queridos.",
+      "oposición": "Saturno y Venus en oposición pueden mostrar dificultad para expresar emociones o miedo al rechazo. Trabaja la confianza en tus sentimientos.",
+      "trígono": "Saturno y Venus en trígono te otorgan estabilidad emocional y capacidad para sostener a otros.",
+      "cuadratura": "Saturno y Venus en cuadratura pueden traer bloqueos emocionales o tendencia a la tristeza. Aprende a pedir ayuda cuando la necesites.",
+      "sextil": "Saturno y Venus en sextil te dan madurez emocional y capacidad para cuidar a los demás."
+    },
+    "marte": {
+      "conjunción": "En tu carta, Saturno y Marte en conjunción te dan control emocional, madurez y tendencia a la reserva afectiva. Puedes ser muy protector con tus seres queridos.",
+      "oposición": "Saturno y Marte en oposición pueden mostrar dificultad para expresar emociones o miedo al rechazo. Trabaja la confianza en tus sentimientos.",
+      "trígono": "Saturno y Marte en trígono te otorgan estabilidad emocional y capacidad para sostener a otros.",
+      "cuadratura": "Saturno y Marte en cuadratura pueden traer bloqueos emocionales o tendencia a la tristeza. Aprende a pedir ayuda cuando la necesites.",
+      "sextil": "Saturno y Marte en sextil te dan madurez emocional y capacidad para cuidar a los demás."
+    },
+    "jupiter": {
+      "conjunción": "En tu carta, Saturno y Júpiter en conjunción te dan control emocional, madurez y tendencia a la reserva afectiva. Puedes ser muy protector con tus seres queridos.",
+      "oposición": "Saturno y Júpiter en oposición pueden mostrar dificultad para expresar emociones o miedo al rechazo. Trabaja la confianza en tus sentimientos.",
+      "trígono": "Saturno y Júpiter en trígono te otorgan estabilidad emocional y capacidad para sostener a otros.",
+      "cuadratura": "Saturno y Júpiter en cuadratura pueden traer bloqueos emocionales o tendencia a la tristeza. Aprende a pedir ayuda cuando la necesites.",
+      "sextil": "Saturno y Júpiter en sextil te dan madurez emocional y capacidad para cuidar a los demás."
+    },
+    "urano": {
+      "conjunción": "En tu carta, Saturno y Urano en conjunción te dan emociones cambiantes y una fuerte necesidad de libertad emocional. Puedes sorprender a los demás con tus reacciones.",
+      "oposición": "Saturno y Urano en oposición pueden mostrar tensión entre tu necesidad de seguridad y tu deseo de independencia. Aprende a equilibrar lo nuevo con lo familiar.",
+      "trígono": "Saturno y Urano en trígono te otorgan creatividad emocional y facilidad para adaptarte a los cambios.",
+      "cuadratura": "Saturno y Urano en cuadratura pueden traer inestabilidad emocional o dificultad para comprometerte.",
+      "sextil": "Saturno y Urano en sextil te dan intuición y capacidad para conectar con personas diferentes."
+    },
+    "neptuno": {
+      "conjunción": "En tu carta, Saturno y Neptuno en conjunción te dan una sensibilidad extrema y una rica vida interior. Puedes captar el ambiente emocional de los demás.",
+      "oposición": "Saturno y Neptuno en oposición pueden mostrar confusión emocional o tendencia a idealizar a los demás. Trabaja la claridad y los límites.",
+      "trígono": "Saturno y Neptuno en trígono te otorgan empatía, compasión y facilidad para soñar.",
+      "cuadratura": "Saturno y Neptuno en cuadratura pueden traer tendencia a la evasión o a la falta de realismo emocional.",
+      "sextil": "Saturno y Neptuno en sextil te dan imaginación y capacidad para inspirar a quienes te rodean."
+    },
+    "pluton": {
+      "conjunción": "En tu carta, Saturno y Plutón en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Saturno y Plutón en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Saturno y Plutón en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Saturno y Plutón en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Saturno y Plutón en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    }
+  },
+  "urano": {
+    "sol": {
+      "conjunción": "En tu carta, Urano y Sol en conjunción te dan originalidad, independencia y deseo de libertad. Buscas ser auténtico y diferente.",
+      "oposición": "Urano y Sol en oposición pueden mostrar tensión entre tu individualidad y la necesidad de pertenecer. Aprende a equilibrar tu libertad con el compromiso.",
+      "trígono": "Urano y Sol en trígono te otorgan creatividad e intuición para innovar en tu vida.",
+      "cuadratura": "Urano y Sol en cuadratura pueden traer rebeldía, cambios bruscos o dificultad para adaptarte a lo convencional.",
+      "sextil": "Urano y Sol en sextil te dan facilidad para adaptarte a los cambios y aprovechar oportunidades inesperadas."
+    },
+    "luna": {
+      "conjunción": "En tu carta, Urano y Luna en conjunción te dan emociones cambiantes y una fuerte necesidad de libertad emocional. Puedes sorprender a los demás con tus reacciones.",
+      "oposición": "Urano y Luna en oposición pueden mostrar tensión entre tu necesidad de seguridad y tu deseo de independencia. Aprende a equilibrar lo nuevo con lo familiar.",
+      "trígono": "Urano y Luna en trígono te otorgan creatividad emocional y facilidad para adaptarte a los cambios.",
+      "cuadratura": "Urano y Luna en cuadratura pueden traer inestabilidad emocional o dificultad para comprometerte.",
+      "sextil": "Urano y Luna en sextil te dan intuición y capacidad para conectar con personas diferentes."
+    },
+    "mercurio": {
+      "conjunción": "En tu carta, Urano y Mercurio en conjunción te dan una mente original, rápida y abierta a nuevas ideas. Puedes tener ideas brillantes e inesperadas.",
+      "oposición": "Urano y Mercurio en oposición pueden mostrar tensión entre el pensamiento convencional y el deseo de innovar. Aprende a equilibrar lo nuevo con lo útil.",
+      "trígono": "Urano y Mercurio en trígono te otorgan creatividad mental y facilidad para adaptarte a los cambios.",
+      "cuadratura": "Urano y Mercurio en cuadratura pueden traer nerviosismo, dispersión o dificultad para concentrarte.",
+      "sextil": "Urano y Mercurio en sextil te dan intuición y capacidad para comunicar ideas originales."
+    },
+    "venus": {
+      "conjunción": "En tu carta, Urano y Venus en conjunción te dan emociones cambiantes y una fuerte necesidad de libertad emocional. Puedes sorprender a los demás con tus reacciones.",
+      "oposición": "Urano y Venus en oposición pueden mostrar tensión entre tu necesidad de seguridad y tu deseo de independencia. Aprende a equilibrar lo nuevo con lo familiar.",
+      "trígono": "Urano y Venus en trígono te otorgan creatividad emocional y facilidad para adaptarte a los cambios.",
+      "cuadratura": "Urano y Venus en cuadratura pueden traer inestabilidad emocional o dificultad para comprometerte.",
+      "sextil": "Urano y Venus en sextil te dan intuición y capacidad para conectar con personas diferentes."
+    },
+    "marte": {
+      "conjunción": "En tu carta, Urano y Marte en conjunción te dan emociones cambiantes y una fuerte necesidad de libertad emocional. Puedes sorprender a los demás con tus reacciones.",
+      "oposición": "Urano y Marte en oposición pueden mostrar tensión entre tu necesidad de seguridad y tu deseo de independencia. Aprende a equilibrar lo nuevo con lo familiar.",
+      "trígono": "Urano y Marte en trígono te otorgan creatividad emocional y facilidad para adaptarte a los cambios.",
+      "cuadratura": "Urano y Marte en cuadratura pueden traer inestabilidad emocional o dificultad para comprometerte.",
+      "sextil": "Urano y Marte en sextil te dan intuición y capacidad para conectar con personas diferentes."
+    },
+    "jupiter": {
+      "conjunción": "En tu carta, Urano y Júpiter en conjunción te dan emociones cambiantes y una fuerte necesidad de libertad emocional. Puedes sorprender a los demás con tus reacciones.",
+      "oposición": "Urano y Júpiter en oposición pueden mostrar tensión entre tu necesidad de seguridad y tu deseo de independencia. Aprende a equilibrar lo nuevo con lo familiar.",
+      "trígono": "Urano y Júpiter en trígono te otorgan creatividad emocional y facilidad para adaptarte a los cambios.",
+      "cuadratura": "Urano y Júpiter en cuadratura pueden traer inestabilidad emocional o dificultad para comprometerte.",
+      "sextil": "Urano y Júpiter en sextil te dan intuición y capacidad para conectar con personas diferentes."
+    },
+    "saturno": {
+      "conjunción": "En tu carta, Urano y Saturno en conjunción te dan emociones cambiantes y una fuerte necesidad de libertad emocional. Puedes sorprender a los demás con tus reacciones.",
+      "oposición": "Urano y Saturno en oposición pueden mostrar tensión entre tu necesidad de seguridad y tu deseo de independencia. Aprende a equilibrar lo nuevo con lo familiar.",
+      "trígono": "Urano y Saturno en trígono te otorgan creatividad emocional y facilidad para adaptarte a los cambios.",
+      "cuadratura": "Urano y Saturno en cuadratura pueden traer inestabilidad emocional o dificultad para comprometerte.",
+      "sextil": "Urano y Saturno en sextil te dan intuición y capacidad para conectar con personas diferentes."
+    },
+    "neptuno": {
+      "conjunción": "En tu carta, Urano y Neptuno en conjunción te dan una sensibilidad extrema y una rica vida interior. Puedes captar el ambiente emocional de los demás.",
+      "oposición": "Urano y Neptuno en oposición pueden mostrar confusión emocional o tendencia a idealizar a los demás. Trabaja la claridad y los límites.",
+      "trígono": "Urano y Neptuno en trígono te otorgan empatía, compasión y facilidad para soñar.",
+      "cuadratura": "Urano y Neptuno en cuadratura pueden traer tendencia a la evasión o a la falta de realismo emocional.",
+      "sextil": "Urano y Neptuno en sextil te dan imaginación y capacidad para inspirar a quienes te rodean."
+    },
+    "pluton": {
+      "conjunción": "En tu carta, Urano y Plutón en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Urano y Plutón en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Urano y Plutón en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Urano y Plutón en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Urano y Plutón en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    }
+  },
+  "neptuno": {
+    "sol": {
+      "conjunción": "En tu carta, Neptuno y Sol en conjunción te dan sensibilidad, intuición y una fuerte vida interior. Puedes sentirte atraído por lo espiritual o artístico.",
+      "oposición": "Neptuno y Sol en oposición pueden mostrar confusión sobre tu identidad o tendencia a idealizar a los demás. Trabaja la claridad y el autoconocimiento.",
+      "trígono": "Neptuno y Sol en trígono te otorgan inspiración y empatía. Sabes conectar con los sueños y emociones de otros.",
+      "cuadratura": "Neptuno y Sol en cuadratura pueden traer tendencia a la evasión o a la falta de límites. Aprende a mantener los pies en la tierra.",
+      "sextil": "Neptuno y Sol en sextil te dan imaginación y capacidad para inspirar a los demás."
+    },
+    "luna": {
+      "conjunción": "En tu carta, Neptuno y Luna en conjunción te dan una sensibilidad extrema y una rica vida interior. Puedes captar el ambiente emocional de los demás.",
+      "oposición": "Neptuno y Luna en oposición pueden mostrar confusión emocional o tendencia a idealizar a los demás. Trabaja la claridad y los límites.",
+      "trígono": "Neptuno y Luna en trígono te otorgan empatía, compasión y facilidad para soñar.",
+      "cuadratura": "Neptuno y Luna en cuadratura pueden traer tendencia a la evasión o a la falta de realismo emocional.",
+      "sextil": "Neptuno y Luna en sextil te dan imaginación y capacidad para inspirar a quienes te rodean."
+    },
+    "mercurio": {
+      "conjunción": "En tu carta, Neptuno y Mercurio en conjunción te dan una mente imaginativa, intuitiva y sensible. Puedes captar lo que otros no ven.",
+      "oposición": "Neptuno y Mercurio en oposición pueden mostrar confusión mental o tendencia a la fantasía. Trabaja la claridad y la objetividad.",
+      "trígono": "Neptuno y Mercurio en trígono te otorgan inspiración y facilidad para comunicarte de manera creativa.",
+      "cuadratura": "Neptuno y Mercurio en cuadratura pueden traer tendencia a la evasión o a la falta de concentración.",
+      "sextil": "Neptuno y Mercurio en sextil te dan imaginación y capacidad para inspirar a los demás con tus palabras."
+    },
+    "venus": {
+      "conjunción": "En tu carta, Neptuno y Venus en conjunción te dan optimismo emocional, generosidad y alegría de vivir. Disfrutas compartir tus emociones.",
+      "oposición": "Neptuno y Venus en oposición pueden mostrar tendencia a los excesos emocionales o a la dispersión. Aprende a poner límites a tus sentimientos.",
+      "trígono": "Neptuno y Venus en trígono te otorgan facilidad para disfrutar y compartir emociones positivas.",
+      "cuadratura": "Neptuno y Venus en cuadratura pueden indicar emociones exageradas o falta de límites. Trabaja la moderación.",
+      "sextil": "Neptuno y Venus en sextil te dan buen humor y capacidad para animar a los demás."
+    },
+    "marte": {
+      "conjunción": "En tu carta, Neptuno y Marte en conjunción te dan una sensibilidad extrema y una rica vida interior. Puedes captar el ambiente emocional de los demás.",
+      "oposición": "Neptuno y Marte en oposición pueden mostrar confusión emocional o tendencia a idealizar a los demás. Trabaja la claridad y los límites.",
+      "trígono": "Neptuno y Marte en trígono te otorgan empatía, compasión y facilidad para soñar.",
+      "cuadratura": "Neptuno y Marte en cuadratura pueden traer tendencia a la evasión o a la falta de realismo emocional.",
+      "sextil": "Neptuno y Marte en sextil te dan imaginación y capacidad para inspirar a quienes te rodean."
+    },
+    "jupiter": {
+      "conjunción": "En tu carta, Neptuno y Júpiter en conjunción te dan optimismo emocional, generosidad y alegría de vivir. Disfrutas compartir tus emociones.",
+      "oposición": "Neptuno y Júpiter en oposición pueden mostrar tendencia a los excesos emocionales o a la dispersión. Aprende a poner límites a tus sentimientos.",
+      "trígono": "Neptuno y Júpiter en trígono te otorgan facilidad para disfrutar y compartir emociones positivas.",
+      "cuadratura": "Neptuno y Júpiter en cuadratura pueden indicar emociones exageradas o falta de límites. Trabaja la moderación.",
+      "sextil": "Neptuno y Júpiter en sextil te dan buen humor y capacidad para animar a los demás."
+    },
+    "saturno": {
+      "conjunción": "En tu carta, Neptuno y Saturno en conjunción te dan una sensibilidad extrema y una rica vida interior. Puedes captar el ambiente emocional de los demás.",
+      "oposición": "Neptuno y Saturno en oposición pueden mostrar confusión emocional o tendencia a idealizar a los demás. Trabaja la claridad y los límites.",
+      "trígono": "Neptuno y Saturno en trígono te otorgan empatía, compasión y facilidad para soñar.",
+      "cuadratura": "Neptuno y Saturno en cuadratura pueden traer tendencia a la evasión o a la falta de realismo emocional.",
+      "sextil": "Neptuno y Saturno en sextil te dan imaginación y capacidad para inspirar a quienes te rodean."
+    },
+    "urano": {
+      "conjunción": "En tu carta, Neptuno y Urano en conjunción te dan emociones cambiantes y una fuerte necesidad de libertad emocional. Puedes sorprender a los demás con tus reacciones.",
+      "oposición": "Neptuno y Urano en oposición pueden mostrar tensión entre tu necesidad de seguridad y tu deseo de independencia. Aprende a equilibrar lo nuevo con lo familiar.",
+      "trígono": "Neptuno y Urano en trígono te otorgan creatividad emocional y facilidad para adaptarte a los cambios.",
+      "cuadratura": "Neptuno y Urano en cuadratura pueden traer inestabilidad emocional o dificultad para comprometerte.",
+      "sextil": "Neptuno y Urano en sextil te dan intuición y capacidad para conectar con personas diferentes."
+    },
+    "pluton": {
+      "conjunción": "En tu carta, Neptuno y Plutón en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Neptuno y Plutón en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Neptuno y Plutón en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Neptuno y Plutón en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Neptuno y Plutón en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    }
+  },
+  "pluton": {
+    "sol": {
+      "conjunción": "En tu carta, Plutón y Sol en conjunción te otorgan intensidad, poder personal y capacidad de transformación. Puedes vivir grandes cambios a lo largo de tu vida.",
+      "oposición": "Plutón y Sol en oposición pueden mostrar luchas de poder o crisis de identidad. Aprende a soltar el control y confiar en tu proceso.",
+      "trígono": "Plutón y Sol en trígono te dan fuerza interior y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Plutón y Sol en cuadratura pueden traer desafíos profundos o tendencia a la autocrítica. El reto es transformar las crisis en oportunidades.",
+      "sextil": "Plutón y Sol en sextil te otorgan capacidad para influir positivamente en tu entorno y transformar tu vida."
+    },
+    "luna": {
+      "conjunción": "En tu carta, Plutón y Luna en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Plutón y Luna en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Plutón y Luna en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Plutón y Luna en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Plutón y Luna en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    },
+    "mercurio": {
+      "conjunción": "En tu carta, Plutón y Mercurio en conjunción te otorgan una mente profunda y capacidad para transformar tus ideas. Puedes sentir una gran intensidad en tu forma de comunicar y analizar.",
+      "oposición": "Plutón y Mercurio en oposición pueden llevarte a cuestionar tus pensamientos o a vivir luchas internas entre razón y obsesión.",
+      "trígono": "Plutón y Mercurio en trígono te dan facilidad para investigar, descubrir verdades ocultas y transformar tu entorno a través de la palabra.",
+      "cuadratura": "Plutón y Mercurio en cuadratura pueden generar pensamientos obsesivos o tendencia a la confrontación verbal. El reto es canalizar esa energía de forma constructiva.",
+      "sextil": "Plutón y Mercurio en sextil te brindan intuición y capacidad para influir positivamente en los demás con tus ideas."
+    },
+    "venus": {
+      "conjunción": "En tu carta, Plutón y Venus en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Plutón y Venus en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Plutón y Venus en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Plutón y Venus en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Plutón y Venus en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    },
+    "marte": {
+      "conjunción": "En tu carta, Plutón y Marte en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Plutón y Marte en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Plutón y Marte en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Plutón y Marte en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Plutón y Marte en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    },
+    "jupiter": {
+      "conjunción": "En tu carta, Plutón y Júpiter en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Plutón y Júpiter en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Plutón y Júpiter en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Plutón y Júpiter en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Plutón y Júpiter en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    },
+    "saturno": {
+      "conjunción": "En tu carta, Plutón y Saturno en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Plutón y Saturno en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Plutón y Saturno en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Plutón y Saturno en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Plutón y Saturno en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    },
+    "urano": {
+      "conjunción": "En tu carta, Plutón y Urano en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Plutón y Urano en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Plutón y Urano en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Plutón y Urano en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Plutón y Urano en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    },
+    "neptuno": {
+      "conjunción": "En tu carta, Plutón y Neptuno en conjunción te otorgan emociones intensas y poder de transformación personal. Puedes vivir grandes cambios emocionales.",
+      "oposición": "Plutón y Neptuno en oposición pueden mostrar luchas internas o crisis emocionales profundas. Aprende a soltar y confiar en tu proceso.",
+      "trígono": "Plutón y Neptuno en trígono te dan fuerza emocional y capacidad para regenerarte ante las dificultades.",
+      "cuadratura": "Plutón y Neptuno en cuadratura pueden traer desafíos emocionales profundos o tendencia a la autocrítica.",
+      "sextil": "Plutón y Neptuno en sextil te otorgan capacidad para influir positivamente en tu entorno emocional."
+    }
+  }
+}
