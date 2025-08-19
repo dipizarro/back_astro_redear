@@ -22,12 +22,15 @@ app = FastAPI()
 
 app.add_middleware(CharsetMiddleware)
 
-# ⭐️ Aquí ponemos cualquier origen para pruebas (puedes restringir después)
+# Configuración de CORS para producción
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # En producción deberías poner ["http://localhost:3000"]
+    allow_origins=[
+        "https://tu-frontend.vercel.app",  # Reemplaza con tu dominio de Vercel
+        "http://localhost:3000",  # Para desarrollo local
+    ],
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
 
