@@ -26,7 +26,7 @@ app.add_middleware(CharsetMiddleware)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://tu-frontend.vercel.app",  # Reemplaza con tu dominio de Vercel
+        "*",  # Para desarrollo - cambia a tu dominio específico en producción
         "http://localhost:3000",  # Para desarrollo local
     ],
     allow_credentials=True,
