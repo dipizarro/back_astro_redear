@@ -27,16 +27,13 @@ app = FastAPI(title=config.APP_NAME, debug=config.DEBUG)
 
 app.add_middleware(CharsetMiddleware)
 
-# Configuración de CORS dinámica
-# En Render, permitir todos los orígenes temporalmente
-cors_origins = ["*"] if "render.com" in os.getenv("RENDER_EXTERNAL_URL", "") else config.CORS_ORIGINS
-
+# Configuración de CORS - Permitir todos los orígenes temporalmente
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=cors_origins,
-    allow_credentials=config.ALLOW_CREDENTIALS,
-    allow_methods=config.ALLOW_METHODS,
-    allow_headers=config.ALLOW_HEADERS,
+    allow_origins=["*"],  # Permitir todos los orígenes
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["*"],
 )
 
 @app.get("/")
@@ -45,22 +42,34 @@ async def root():
         "message": "Astro Reader API",
         "version": "1.0.0",
         "status": "running",
-        "environment": "development" if config.DEBUG else "production"
+        "environment": "development" if config.DEBUG else "production",
+        "cors_enabled": True
     }
 
 @app.get("/health")
 async def health_check():
     return {"status": "healthy", "timestamp": datetime.now().isoformat()}
 
+@app.get("/test")
+async def test_endpoint():
+    return {"message": "Test endpoint working", "cors": "enabled"}
+
 @app.post("/api/chart/")
 async def get_chart(data: ChartRequest, type: str = Query("professional", enum=["professional", "spiritual", "psychological", "youth"])):
-    positions = get_planet_positions(
-        data.date, str(data.latitude), str(data.longitude)
-    )
-    reading = interpret(positions, type=type)
-    return {
-        "positions": positions,
-        "reading": reading
-    }
+    try:
+        positions = get_planet_positions(
+            data.date, str(data.latitude), str(data.longitude)
+        )
+        reading = interpret(positions, type=type)
+        return {
+            "positions": positions,
+            "reading": reading
+        }
+    except Exception as e:
+        return {
+            "error": str(e),
+            "type": "chart_error",
+            "message": "Error processing chart request"
+        }
 
 
