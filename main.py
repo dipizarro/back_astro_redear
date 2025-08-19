@@ -1,8 +1,10 @@
+import os
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from astro.calculator import get_planet_positions
 from astro.interpreter import interpret
 from astro.schemas import ChartRequest
+from config import get_config
 
 from datetime import datetime, timezone
 from skyfield.api import load, wgs84
@@ -18,21 +20,37 @@ class CharsetMiddleware(BaseHTTPMiddleware):
             response.headers["Content-Type"] = "application/json; charset=utf-8"
         return response
 
-app = FastAPI()
+# Obtener configuración según el entorno
+config = get_config()
+
+app = FastAPI(title=config.APP_NAME, debug=config.DEBUG)
 
 app.add_middleware(CharsetMiddleware)
 
-# Configuración de CORS para producción
+# Configuración de CORS dinámica
+# En Render, permitir todos los orígenes temporalmente
+cors_origins = ["*"] if "render.com" in os.getenv("RENDER_EXTERNAL_URL", "") else config.CORS_ORIGINS
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "*",  # Para desarrollo - cambia a tu dominio específico en producción
-        "http://localhost:3000",  # Para desarrollo local
-    ],
-    allow_credentials=True,
-    allow_methods=["GET", "POST"],
-    allow_headers=["*"],
+    allow_origins=cors_origins,
+    allow_credentials=config.ALLOW_CREDENTIALS,
+    allow_methods=config.ALLOW_METHODS,
+    allow_headers=config.ALLOW_HEADERS,
 )
+
+@app.get("/")
+async def root():
+    return {
+        "message": "Astro Reader API",
+        "version": "1.0.0",
+        "status": "running",
+        "environment": "development" if config.DEBUG else "production"
+    }
+
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy", "timestamp": datetime.now().isoformat()}
 
 @app.post("/api/chart/")
 async def get_chart(data: ChartRequest, type: str = Query("professional", enum=["professional", "spiritual", "psychological", "youth"])):
