@@ -52,8 +52,27 @@ def get_sign_from_degrees(degrees):
     return SIGNS[index]
 
 def parse_datetime(date_str):
-    # Espera formato ISO: YYYY-MM-DDTHH:MM:SS o similar
-    dt = datetime.fromisoformat(date_str)
+    # Manejar diferentes formatos de fecha
+    try:
+        # Intentar formato ISO primero
+        dt = datetime.fromisoformat(date_str)
+    except ValueError:
+        try:
+            # Intentar formato YYYY/MM/DD HH:MM
+            dt = datetime.strptime(date_str, "%Y/%m/%d %H:%M")
+        except ValueError:
+            try:
+                # Intentar formato YYYY-MM-DD HH:MM
+                dt = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
+            except ValueError:
+                try:
+                    # Intentar solo fecha YYYY/MM/DD
+                    dt = datetime.strptime(date_str, "%Y/%m/%d")
+                except ValueError:
+                    # Intentar solo fecha YYYY-MM-DD
+                    dt = datetime.strptime(date_str, "%Y-%m-%d")
+    
+    # Si no tiene zona horaria, usar UTC
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=utc)
     return dt
