@@ -61,9 +61,13 @@ async def get_chart(data: ChartRequest, type: str = Query("professional", enum=[
             data.date, str(data.latitude), str(data.longitude)
         )
         reading = interpret(positions, type=type)
+        
+        # Estructura que espera el frontend
         return {
             "positions": positions,
-            "reading": reading
+            "reading": {
+                type: reading  # Anidar bajo el tipo solicitado
+            }
         }
     except Exception as e:
         return {
